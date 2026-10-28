@@ -1,0 +1,53 @@
+{
+ "study": "fareez_local20_large_v3",
+ "trial": 13,
+ "dev_value": 0.07167990713534299,
+ "basis": "lowest pooled development WER on the 20-recording local search set",
+ "params": {
+  "beam_size": 4,
+  "patience": 1.5277601841529453,
+  "length_penalty": 1.0921104871045475,
+  "repetition_penalty": 1.0247273951799225,
+  "no_repeat_ngram_size": 0,
+  "temperature_fallback": "short",
+  "best_of": 2,
+  "compression_ratio_threshold": 1.8234550652349935,
+  "log_prob_threshold": -0.8774929267463548,
+  "no_speech_threshold": 0.7853320487034083,
+  "condition_on_previous_text": false,
+  "initial_prompt": "none",
+  "hallucination_silence": "off",
+  "vad_threshold": 0.3096657988792441,
+  "vad_min_speech_ms": 162,
+  "vad_min_silence_ms": 116,
+  "vad_speech_pad_ms": 117
+ },
+ "transcribe_kwargs": {
+  "vad_filter": true,
+  "beam_size": 4,
+  "patience": 1.5277601841529453,
+  "length_penalty": 1.0921104871045475,
+  "repetition_penalty": 1.0247273951799225,
+  "no_repeat_ngram_size": 0,
+  "temperature": [
+   0.0,
+   0.2,
+   0.4
+  ],
+  "best_of": 2,
+  "compression_ratio_threshold": 1.8234550652349935,
+  "log_prob_threshold": -0.8774929267463548,
+  "no_speech_threshold": 0.7853320487034083,
+  "condition_on_previous_text": false,
+  "initial_prompt": null,
+  "vad_parameters": {
+   "threshold": 0.3096657988792441,
+   "min_speech_duration_ms": 162,
+   "min_silence_duration_ms": 116,
+   "speech_pad_ms": 117
+  }
+ },
+ "complete_trials": null,
+ "n_complete": 14,
+ "n_trials": 16
+}

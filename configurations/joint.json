@@ -1,0 +1,5079 @@
+{
+ "study": "joint_three_corpus_large_v3",
+ "trial": 1,
+ "dev_value": 0.09703742542852573,
+ "basis": "top five by search objective re-scored on full development sets; lowest mean WER, ties within 0.10 points to the lowest maximum per-corpus WER (JOINT_SELECTION_RULE.md)",
+ "params": {
+  "beam_size": 5,
+  "patience": 1.2892983089975756,
+  "length_penalty": 1.1336742415752792,
+  "repetition_penalty": 1.0003012903539006,
+  "no_repeat_ngram_size": 0,
+  "temperature_fallback": "short",
+  "best_of": 1,
+  "compression_ratio_threshold": 2.3090012166768297,
+  "log_prob_threshold": -0.6508922295572557,
+  "no_speech_threshold": 0.4662834576554118,
+  "condition_on_previous_text": false,
+  "initial_prompt": "none",
+  "hallucination_silence": "on",
+  "hallucination_silence_threshold": 1.4665129380691815,
+  "vad_threshold": 0.36221394485239966,
+  "vad_min_speech_ms": 161,
+  "vad_min_silence_ms": 377,
+  "vad_speech_pad_ms": 55
+ },
+ "transcribe_kwargs": {
+  "vad_filter": true,
+  "beam_size": 5,
+  "patience": 1.2892983089975756,
+  "length_penalty": 1.1336742415752792,
+  "repetition_penalty": 1.0003012903539006,
+  "no_repeat_ngram_size": 0,
+  "temperature": [
+   0.0,
+   0.2,
+   0.4
+  ],
+  "best_of": 1,
+  "compression_ratio_threshold": 2.3090012166768297,
+  "log_prob_threshold": -0.6508922295572557,
+  "no_speech_threshold": 0.4662834576554118,
+  "condition_on_previous_text": false,
+  "initial_prompt": null,
+  "hallucination_silence_threshold": 1.4665129380691815,
+  "vad_parameters": {
+   "threshold": 0.36221394485239966,
+   "min_speech_duration_ms": 161,
+   "min_silence_duration_ms": 377,
+   "speech_pad_ms": 55
+  }
+ },
+ "complete_trials": null,
+ "full_dev": {
+  "trial": 1,
+  "wer": {
+   "fareez": 0.07142052706659659,
+   "primock": 0.12058980162428438,
+   "afrispeech": 0.08835807622952845
+  },
+  "mean_wer": 0.09345613497346981,
+  "counts": {
+   "fareez": {
+    "sub": 976,
+    "dele": 1464,
+    "ins": 1365,
+    "n": 53276
+   },
+   "primock": {
+    "sub": 1024,
+    "dele": 2050,
+    "ins": 549,
+    "n": 30044
+   },
+   "afrispeech": {
+    "sub": 1225,
+    "dele": 1067,
+    "ins": 1285,
+    "n": 40483
+   }
+  },
+  "n": {
+   "fareez": 40,
+   "primock": 20,
+   "afrispeech": 29
+  },
+  "per_recording": [
+   {
+    "corpus": "fareez",
+    "recording": "RES0151",
+    "seconds": 99.5,
+    "sub": 22,
+    "dele": 15,
+    "ins": 40,
+    "n": 1152
+   },
+   {
+    "corpus": "fareez",
+    "recording": "RES0204",
+    "seconds": 80.2,
+    "sub": 11,
+    "dele": 32,
+    "ins": 17,
+    "n": 995
+   },
+   {
+    "corpus": "fareez",
+    "recording": "RES0147",
+    "seconds": 109.4,
+    "sub": 32,
+    "dele": 87,
+    "ins": 21,
+    "n": 1276
+   },
+   {
+    "corpus": "fareez",
+    "recording": "RES0034",
+    "seconds": 133.5,
+    "sub": 22,
+    "dele": 27,
+    "ins": 33,
+    "n": 1683
+   },
+   {
+    "corpus": "fareez",
+    "recording": "RES0042",
+    "seconds": 105.8,
+    "sub": 38,
+    "dele": 44,
+    "ins": 22,
+    "n": 1268
+   },
+   {
+    "corpus": "fareez",
+    "recording": "MSK0029",
+    "seconds": 187.5,
+    "sub": 44,
+    "dele": 65,
+    "ins": 41,
+    "n": 2265
+   },
+   {
+    "corpus": "fareez",
+    "recording": "RES0074",
+    "seconds": 102.9,
+    "sub": 13,
+    "dele": 14,
+    "ins": 88,
+    "n": 1242
+   },
+   {
+    "corpus": "fareez",
+    "recording": "MSK0034",
+    "seconds": 115.1,
+    "sub": 37,
+    "dele": 30,
+    "ins": 33,
+    "n": 1452
+   },
+   {
+    "corpus": "fareez",
+    "recording": "RES0078",
+    "seconds": 109.3,
+    "sub": 23,
+    "dele": 13,
+    "ins": 64,
+    "n": 1136
+   },
+   {
+    "corpus": "fareez",
+    "recording": "MSK0012",
+    "seconds": 128.5,
+    "sub": 23,
+    "dele": 29,
+    "ins": 22,
+    "n": 1654
+   },
+   {
+    "corpus": "fareez",
+    "recording": "RES0188",
+    "seconds": 82.5,
+    "sub": 9,
+    "dele": 25,
+    "ins": 14,
+    "n": 952
+   },
+   {
+    "corpus": "fareez",
+    "recording": "RES0052",
+    "seconds": 74.6,
+    "sub": 22,
+    "dele": 27,
+    "ins": 30,
+    "n": 816
+   },
+   {
+    "corpus": "fareez",
+    "recording": "RES0118",
+    "seconds": 79.5,
+    "sub": 11,
+    "dele": 33,
+    "ins": 7,
+    "n": 947
+   },
+   {
+    "corpus": "fareez",
+    "recording": "RES0120",
+    "seconds": 107.7,
+    "sub": 8,
+    "dele": 49,
+    "ins": 11,
+    "n": 1390
+   },
+   {
+    "corpus": "fareez",
+    "recording": "RES0189",
+    "seconds": 114.4,
+    "sub": 23,
+    "dele": 25,
+    "ins": 37,
+    "n": 1432
+   },
+   {
+    "corpus": "fareez",
+    "recording": "RES0130",
+    "seconds": 109.6,
+    "sub": 21,
+    "dele": 34,
+    "ins": 21,
+    "n": 1340
+   },
+   {
+    "corpus": "fareez",
+    "recording": "RES0055",
+    "seconds": 125.3,
+    "sub": 24,
+    "dele": 26,
+    "ins": 106,
+    "n": 1380
+   },
+   {
+    "corpus": "fareez",
+    "recording": "DER0001",
+    "seconds": 116.1,
+    "sub": 56,
+    "dele": 40,
+    "ins": 45,
+    "n": 1556
+   },
+   {
+    "corpus": "fareez",
+    "recording": "RES0011",
+    "seconds": 131.2,
+    "sub": 22,
+    "dele": 43,
+    "ins": 33,
+    "n": 1654
+   },
+   {
+    "corpus": "fareez",
+    "recording": "RES0171",
+    "seconds": 112.5,
+    "sub": 30,
+    "dele": 40,
+    "ins": 34,
+    "n": 1366
+   },
+   {
+    "corpus": "fareez",
+    "recording": "RES0184",
+    "seconds": 84.6,
+    "sub": 15,
+    "dele": 28,
+    "ins": 29,
+    "n": 964
+   },
+   {
+    "corpus": "fareez",
+    "recording": "RES0030",
+    "seconds": 95.8,
+    "sub": 15,
+    "dele": 35,
+    "ins": 31,
+    "n": 1185
+   },
+   {
+    "corpus": "fareez",
+    "recording": "MSK0021",
+    "seconds": 143.6,
+    "sub": 41,
+    "dele": 66,
+    "ins": 42,
+    "n": 1734
+   },
+   {
+    "corpus": "fareez",
+    "recording": "RES0043",
+    "seconds": 115.8,
+    "sub": 36,
+    "dele": 63,
+    "ins": 37,
+    "n": 1507
+   },
+   {
+    "corpus": "fareez",
+    "recording": "RES0067",
+    "seconds": 73.8,
+    "sub": 20,
+    "dele": 14,
+    "ins": 45,
+    "n": 947
+   },
+   {
+    "corpus": "fareez",
+    "recording": "RES0214",
+    "seconds": 89.2,
+    "sub": 23,
+    "dele": 29,
+    "ins": 23,
+    "n": 1127
+   },
+   {
+    "corpus": "fareez",
+    "recording": "GAS0003",
+    "seconds": 88.9,
+    "sub": 13,
+    "dele": 42,
+    "ins": 26,
+    "n": 1094
+   },
+   {
+    "corpus": "fareez",
+    "recording": "RES0192",
+    "seconds": 112.5,
+    "sub": 23,
+    "dele": 49,
+    "ins": 22,
+    "n": 1278
+   },
+   {
+    "corpus": "fareez",
+    "recording": "RES0027",
+    "seconds": 112.2,
+    "sub": 33,
+    "dele": 51,
+    "ins": 26,
+    "n": 1369
+   },
+   {
+    "corpus": "fareez",
+    "recording": "MSK0009",
+    "seconds": 135.4,
+    "sub": 26,
+    "dele": 36,
+    "ins": 61,
+    "n": 1566
+   },
+   {
+    "corpus": "fareez",
+    "recording": "RES0004",
+    "seconds": 139.4,
+    "sub": 43,
+    "dele": 41,
+    "ins": 52,
+    "n": 1728
+   },
+   {
+    "corpus": "fareez",
+    "recording": "RES0169",
+    "seconds": 76.8,
+    "sub": 31,
+    "dele": 46,
+    "ins": 30,
+    "n": 946
+   },
+   {
+    "corpus": "fareez",
+    "recording": "RES0106",
+    "seconds": 107.8,
+    "sub": 23,
+    "dele": 53,
+    "ins": 24,
+    "n": 1299
+   },
+   {
+    "corpus": "fareez",
+    "recording": "MSK0015",
+    "seconds": 127.2,
+    "sub": 36,
+    "dele": 53,
+    "ins": 31,
+    "n": 1624
+   },
+   {
+    "corpus": "fareez",
+    "recording": "CAR0005",
+    "seconds": 105.3,
+    "sub": 11,
+    "dele": 37,
+    "ins": 21,
+    "n": 1289
+   },
+   {
+    "corpus": "fareez",
+    "recording": "RES0005",
+    "seconds": 132.3,
+    "sub": 31,
+    "dele": 20,
+    "ins": 31,
+    "n": 1650
+   },
+   {
+    "corpus": "fareez",
+    "recording": "MSK0044",
+    "seconds": 98.3,
+    "sub": 22,
+    "dele": 41,
+    "ins": 30,
+    "n": 1185
+   },
+   {
+    "corpus": "fareez",
+    "recording": "GEN0001",
+    "seconds": 81.8,
+    "sub": 14,
+    "dele": 29,
+    "ins": 23,
+    "n": 1135
+   },
+   {
+    "corpus": "fareez",
+    "recording": "RES0088",
+    "seconds": 121.9,
+    "sub": 16,
+    "dele": 16,
+    "ins": 47,
+    "n": 1363
+   },
+   {
+    "corpus": "fareez",
+    "recording": "RES0016",
+    "seconds": 118.6,
+    "sub": 13,
+    "dele": 17,
+    "ins": 15,
+    "n": 1330
+   },
+   {
+    "corpus": "primock",
+    "recording": "day1_consultation04",
+    "seconds": 123.1,
+    "sub": 69,
+    "dele": 152,
+    "ins": 50,
+    "n": 1651
+   },
+   {
+    "corpus": "primock",
+    "recording": "day1_consultation08",
+    "seconds": 92.4,
+    "sub": 52,
+    "dele": 82,
+    "ins": 18,
+    "n": 1164
+   },
+   {
+    "corpus": "primock",
+    "recording": "day1_consultation10",
+    "seconds": 127.8,
+    "sub": 83,
+    "dele": 218,
+    "ins": 39,
+    "n": 1855
+   },
+   {
+    "corpus": "primock",
+    "recording": "day1_consultation14",
+    "seconds": 142.5,
+    "sub": 75,
+    "dele": 161,
+    "ins": 35,
+    "n": 1945
+   },
+   {
+    "corpus": "primock",
+    "recording": "day1_consultation15",
+    "seconds": 103.9,
+    "sub": 50,
+    "dele": 63,
+    "ins": 39,
+    "n": 1263
+   },
+   {
+    "corpus": "primock",
+    "recording": "day2_consultation02",
+    "seconds": 133.4,
+    "sub": 57,
+    "dele": 141,
+    "ins": 26,
+    "n": 1686
+   },
+   {
+    "corpus": "primock",
+    "recording": "day2_consultation03",
+    "seconds": 114.7,
+    "sub": 71,
+    "dele": 99,
+    "ins": 36,
+    "n": 1415
+   },
+   {
+    "corpus": "primock",
+    "recording": "day2_consultation05",
+    "seconds": 161.2,
+    "sub": 33,
+    "dele": 104,
+    "ins": 14,
+    "n": 1917
+   },
+   {
+    "corpus": "primock",
+    "recording": "day2_consultation10",
+    "seconds": 145.7,
+    "sub": 35,
+    "dele": 94,
+    "ins": 18,
+    "n": 1791
+   },
+   {
+    "corpus": "primock",
+    "recording": "day3_consultation01",
+    "seconds": 96.4,
+    "sub": 44,
+    "dele": 105,
+    "ins": 19,
+    "n": 1278
+   },
+   {
+    "corpus": "primock",
+    "recording": "day3_consultation04",
+    "seconds": 92.9,
+    "sub": 54,
+    "dele": 53,
+    "ins": 36,
+    "n": 1111
+   },
+   {
+    "corpus": "primock",
+    "recording": "day3_consultation07",
+    "seconds": 91.7,
+    "sub": 54,
+    "dele": 81,
+    "ins": 28,
+    "n": 1177
+   },
+   {
+    "corpus": "primock",
+    "recording": "day3_consultation10",
+    "seconds": 106.0,
+    "sub": 34,
+    "dele": 55,
+    "ins": 15,
+    "n": 1356
+   },
+   {
+    "corpus": "primock",
+    "recording": "day4_consultation04",
+    "seconds": 79.6,
+    "sub": 25,
+    "dele": 33,
+    "ins": 14,
+    "n": 987
+   },
+   {
+    "corpus": "primock",
+    "recording": "day4_consultation05",
+    "seconds": 116.4,
+    "sub": 65,
+    "dele": 123,
+    "ins": 30,
+    "n": 1564
+   },
+   {
+    "corpus": "primock",
+    "recording": "day4_consultation06",
+    "seconds": 127.1,
+    "sub": 42,
+    "dele": 95,
+    "ins": 24,
+    "n": 1650
+   },
+   {
+    "corpus": "primock",
+    "recording": "day4_consultation08",
+    "seconds": 135.7,
+    "sub": 56,
+    "dele": 117,
+    "ins": 28,
+    "n": 1691
+   },
+   {
+    "corpus": "primock",
+    "recording": "day5_consultation03",
+    "seconds": 182.8,
+    "sub": 52,
+    "dele": 115,
+    "ins": 26,
+    "n": 2488
+   },
+   {
+    "corpus": "primock",
+    "recording": "day5_consultation04",
+    "seconds": 102.7,
+    "sub": 64,
+    "dele": 125,
+    "ins": 47,
+    "n": 1268
+   },
+   {
+    "corpus": "primock",
+    "recording": "day5_consultation12",
+    "seconds": 71.8,
+    "sub": 9,
+    "dele": 34,
+    "ins": 7,
+    "n": 787
+   },
+   {
+    "corpus": "afrispeech",
+    "recording": "GEN01",
+    "seconds": 266.4,
+    "sub": 262,
+    "dele": 256,
+    "ins": 203,
+    "n": 3195
+   },
+   {
+    "corpus": "afrispeech",
+    "recording": "GEN02",
+    "seconds": 193.3,
+    "sub": 51,
+    "dele": 24,
+    "ins": 61,
+    "n": 2334
+   },
+   {
+    "corpus": "afrispeech",
+    "recording": "GEN03",
+    "seconds": 92.8,
+    "sub": 14,
+    "dele": 3,
+    "ins": 12,
+    "n": 1143
+   },
+   {
+    "corpus": "afrispeech",
+    "recording": "GEN04",
+    "seconds": 82.8,
+    "sub": 46,
+    "dele": 103,
+    "ins": 39,
+    "n": 925
+   },
+   {
+    "corpus": "afrispeech",
+    "recording": "GEN05",
+    "seconds": 250.5,
+    "sub": 98,
+    "dele": 51,
+    "ins": 77,
+    "n": 2750
+   },
+   {
+    "corpus": "afrispeech",
+    "recording": "GEN06",
+    "seconds": 93.4,
+    "sub": 31,
+    "dele": 15,
+    "ins": 32,
+    "n": 1166
+   },
+   {
+    "corpus": "afrispeech",
+    "recording": "GEN07",
+    "seconds": 119.2,
+    "sub": 49,
+    "dele": 33,
+    "ins": 61,
+    "n": 1456
+   },
+   {
+    "corpus": "afrispeech",
+    "recording": "GEN08",
+    "seconds": 94.1,
+    "sub": 16,
+    "dele": 24,
+    "ins": 59,
+    "n": 879
+   },
+   {
+    "corpus": "afrispeech",
+    "recording": "GEN09",
+    "seconds": 122.0,
+    "sub": 60,
+    "dele": 30,
+    "ins": 43,
+    "n": 1503
+   },
+   {
+    "corpus": "afrispeech",
+    "recording": "GEN10",
+    "seconds": 97.0,
+    "sub": 17,
+    "dele": 21,
+    "ins": 36,
+    "n": 1131
+   },
+   {
+    "corpus": "afrispeech",
+    "recording": "GEN11",
+    "seconds": 83.5,
+    "sub": 49,
+    "dele": 16,
+    "ins": 29,
+    "n": 1049
+   },
+   {
+    "corpus": "afrispeech",
+    "recording": "GEN12",
+    "seconds": 87.2,
+    "sub": 42,
+    "dele": 13,
+    "ins": 18,
+    "n": 1077
+   },
+   {
+    "corpus": "afrispeech",
+    "recording": "GEN13",
+    "seconds": 205.7,
+    "sub": 131,
+    "dele": 62,
+    "ins": 122,
+    "n": 2638
+   },
+   {
+    "corpus": "afrispeech",
+    "recording": "GEN14",
+    "seconds": 158.5,
+    "sub": 64,
+    "dele": 65,
+    "ins": 70,
+    "n": 1892
+   },
+   {
+    "corpus": "afrispeech",
+    "recording": "GEN15",
+    "seconds": 110.8,
+    "sub": 17,
+    "dele": 5,
+    "ins": 11,
+    "n": 1116
+   },
+   {
+    "corpus": "afrispeech",
+    "recording": "GEN16",
+    "seconds": 66.6,
+    "sub": 23,
+    "dele": 11,
+    "ins": 9,
+    "n": 712
+   },
+   {
+    "corpus": "afrispeech",
+    "recording": "GEN17",
+    "seconds": 158.5,
+    "sub": 34,
+    "dele": 29,
+    "ins": 16,
+    "n": 1623
+   },
+   {
+    "corpus": "afrispeech",
+    "recording": "GEN18",
+    "seconds": 81.2,
+    "sub": 18,
+    "dele": 23,
+    "ins": 63,
+    "n": 846
+   },
+   {
+    "corpus": "afrispeech",
+    "recording": "GEN19",
+    "seconds": 146.3,
+    "sub": 31,
+    "dele": 70,
+    "ins": 66,
+    "n": 1809
+   },
+   {
+    "corpus": "afrispeech",
+    "recording": "GEN20",
+    "seconds": 106.3,
+    "sub": 16,
+    "dele": 42,
+    "ins": 59,
+    "n": 1307
+   },
+   {
+    "corpus": "afrispeech",
+    "recording": "GEN21",
+    "seconds": 155.0,
+    "sub": 25,
+    "dele": 17,
+    "ins": 14,
+    "n": 1665
+   },
+   {
+    "corpus": "afrispeech",
+    "recording": "GEN22",
+    "seconds": 162.3,
+    "sub": 59,
+    "dele": 44,
+    "ins": 66,
+    "n": 1962
+   },
+   {
+    "corpus": "afrispeech",
+    "recording": "GEN23",
+    "seconds": 22.5,
+    "sub": 5,
+    "dele": 19,
+    "ins": 16,
+    "n": 260
+   },
+   {
+    "corpus": "afrispeech",
+    "recording": "GEN24",
+    "seconds": 52.0,
+    "sub": 5,
+    "dele": 10,
+    "ins": 8,
+    "n": 560
+   },
+   {
+    "corpus": "afrispeech",
+    "recording": "GEN25",
+    "seconds": 91.7,
+    "sub": 12,
+    "dele": 19,
+    "ins": 9,
+    "n": 1011
+   },
+   {
+    "corpus": "afrispeech",
+    "recording": "GEN26",
+    "seconds": 67.1,
+    "sub": 12,
+    "dele": 14,
+    "ins": 55,
+    "n": 751
+   },
+   {
+    "corpus": "afrispeech",
+    "recording": "GEN27",
+    "seconds": 81.8,
+    "sub": 10,
+    "dele": 6,
+    "ins": 7,
+    "n": 864
+   },
+   {
+    "corpus": "afrispeech",
+    "recording": "GEN28",
+    "seconds": 100.8,
+    "sub": 16,
+    "dele": 33,
+    "ins": 10,
+    "n": 1104
+   },
+   {
+    "corpus": "afrispeech",
+    "recording": "GEN29",
+    "seconds": 154.3,
+    "sub": 12,
+    "dele": 9,
+    "ins": 14,
+    "n": 1755
+   }
+  ]
+ },
+ "candidates": {
+  "1": {
+   "trial": 1,
+   "wer": {
+    "fareez": 0.07142052706659659,
+    "primock": 0.12058980162428438,
+    "afrispeech": 0.08835807622952845
+   },
+   "mean_wer": 0.09345613497346981,
+   "counts": {
+    "fareez": {
+     "sub": 976,
+     "dele": 1464,
+     "ins": 1365,
+     "n": 53276
+    },
+    "primock": {
+     "sub": 1024,
+     "dele": 2050,
+     "ins": 549,
+     "n": 30044
+    },
+    "afrispeech": {
+     "sub": 1225,
+     "dele": 1067,
+     "ins": 1285,
+     "n": 40483
+    }
+   },
+   "n": {
+    "fareez": 40,
+    "primock": 20,
+    "afrispeech": 29
+   },
+   "per_recording": [
+    {
+     "corpus": "fareez",
+     "recording": "RES0151",
+     "seconds": 99.5,
+     "sub": 22,
+     "dele": 15,
+     "ins": 40,
+     "n": 1152
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0204",
+     "seconds": 80.2,
+     "sub": 11,
+     "dele": 32,
+     "ins": 17,
+     "n": 995
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0147",
+     "seconds": 109.4,
+     "sub": 32,
+     "dele": 87,
+     "ins": 21,
+     "n": 1276
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0034",
+     "seconds": 133.5,
+     "sub": 22,
+     "dele": 27,
+     "ins": 33,
+     "n": 1683
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0042",
+     "seconds": 105.8,
+     "sub": 38,
+     "dele": 44,
+     "ins": 22,
+     "n": 1268
+    },
+    {
+     "corpus": "fareez",
+     "recording": "MSK0029",
+     "seconds": 187.5,
+     "sub": 44,
+     "dele": 65,
+     "ins": 41,
+     "n": 2265
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0074",
+     "seconds": 102.9,
+     "sub": 13,
+     "dele": 14,
+     "ins": 88,
+     "n": 1242
+    },
+    {
+     "corpus": "fareez",
+     "recording": "MSK0034",
+     "seconds": 115.1,
+     "sub": 37,
+     "dele": 30,
+     "ins": 33,
+     "n": 1452
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0078",
+     "seconds": 109.3,
+     "sub": 23,
+     "dele": 13,
+     "ins": 64,
+     "n": 1136
+    },
+    {
+     "corpus": "fareez",
+     "recording": "MSK0012",
+     "seconds": 128.5,
+     "sub": 23,
+     "dele": 29,
+     "ins": 22,
+     "n": 1654
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0188",
+     "seconds": 82.5,
+     "sub": 9,
+     "dele": 25,
+     "ins": 14,
+     "n": 952
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0052",
+     "seconds": 74.6,
+     "sub": 22,
+     "dele": 27,
+     "ins": 30,
+     "n": 816
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0118",
+     "seconds": 79.5,
+     "sub": 11,
+     "dele": 33,
+     "ins": 7,
+     "n": 947
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0120",
+     "seconds": 107.7,
+     "sub": 8,
+     "dele": 49,
+     "ins": 11,
+     "n": 1390
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0189",
+     "seconds": 114.4,
+     "sub": 23,
+     "dele": 25,
+     "ins": 37,
+     "n": 1432
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0130",
+     "seconds": 109.6,
+     "sub": 21,
+     "dele": 34,
+     "ins": 21,
+     "n": 1340
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0055",
+     "seconds": 125.3,
+     "sub": 24,
+     "dele": 26,
+     "ins": 106,
+     "n": 1380
+    },
+    {
+     "corpus": "fareez",
+     "recording": "DER0001",
+     "seconds": 116.1,
+     "sub": 56,
+     "dele": 40,
+     "ins": 45,
+     "n": 1556
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0011",
+     "seconds": 131.2,
+     "sub": 22,
+     "dele": 43,
+     "ins": 33,
+     "n": 1654
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0171",
+     "seconds": 112.5,
+     "sub": 30,
+     "dele": 40,
+     "ins": 34,
+     "n": 1366
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0184",
+     "seconds": 84.6,
+     "sub": 15,
+     "dele": 28,
+     "ins": 29,
+     "n": 964
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0030",
+     "seconds": 95.8,
+     "sub": 15,
+     "dele": 35,
+     "ins": 31,
+     "n": 1185
+    },
+    {
+     "corpus": "fareez",
+     "recording": "MSK0021",
+     "seconds": 143.6,
+     "sub": 41,
+     "dele": 66,
+     "ins": 42,
+     "n": 1734
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0043",
+     "seconds": 115.8,
+     "sub": 36,
+     "dele": 63,
+     "ins": 37,
+     "n": 1507
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0067",
+     "seconds": 73.8,
+     "sub": 20,
+     "dele": 14,
+     "ins": 45,
+     "n": 947
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0214",
+     "seconds": 89.2,
+     "sub": 23,
+     "dele": 29,
+     "ins": 23,
+     "n": 1127
+    },
+    {
+     "corpus": "fareez",
+     "recording": "GAS0003",
+     "seconds": 88.9,
+     "sub": 13,
+     "dele": 42,
+     "ins": 26,
+     "n": 1094
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0192",
+     "seconds": 112.5,
+     "sub": 23,
+     "dele": 49,
+     "ins": 22,
+     "n": 1278
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0027",
+     "seconds": 112.2,
+     "sub": 33,
+     "dele": 51,
+     "ins": 26,
+     "n": 1369
+    },
+    {
+     "corpus": "fareez",
+     "recording": "MSK0009",
+     "seconds": 135.4,
+     "sub": 26,
+     "dele": 36,
+     "ins": 61,
+     "n": 1566
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0004",
+     "seconds": 139.4,
+     "sub": 43,
+     "dele": 41,
+     "ins": 52,
+     "n": 1728
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0169",
+     "seconds": 76.8,
+     "sub": 31,
+     "dele": 46,
+     "ins": 30,
+     "n": 946
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0106",
+     "seconds": 107.8,
+     "sub": 23,
+     "dele": 53,
+     "ins": 24,
+     "n": 1299
+    },
+    {
+     "corpus": "fareez",
+     "recording": "MSK0015",
+     "seconds": 127.2,
+     "sub": 36,
+     "dele": 53,
+     "ins": 31,
+     "n": 1624
+    },
+    {
+     "corpus": "fareez",
+     "recording": "CAR0005",
+     "seconds": 105.3,
+     "sub": 11,
+     "dele": 37,
+     "ins": 21,
+     "n": 1289
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0005",
+     "seconds": 132.3,
+     "sub": 31,
+     "dele": 20,
+     "ins": 31,
+     "n": 1650
+    },
+    {
+     "corpus": "fareez",
+     "recording": "MSK0044",
+     "seconds": 98.3,
+     "sub": 22,
+     "dele": 41,
+     "ins": 30,
+     "n": 1185
+    },
+    {
+     "corpus": "fareez",
+     "recording": "GEN0001",
+     "seconds": 81.8,
+     "sub": 14,
+     "dele": 29,
+     "ins": 23,
+     "n": 1135
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0088",
+     "seconds": 121.9,
+     "sub": 16,
+     "dele": 16,
+     "ins": 47,
+     "n": 1363
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0016",
+     "seconds": 118.6,
+     "sub": 13,
+     "dele": 17,
+     "ins": 15,
+     "n": 1330
+    },
+    {
+     "corpus": "primock",
+     "recording": "day1_consultation04",
+     "seconds": 123.1,
+     "sub": 69,
+     "dele": 152,
+     "ins": 50,
+     "n": 1651
+    },
+    {
+     "corpus": "primock",
+     "recording": "day1_consultation08",
+     "seconds": 92.4,
+     "sub": 52,
+     "dele": 82,
+     "ins": 18,
+     "n": 1164
+    },
+    {
+     "corpus": "primock",
+     "recording": "day1_consultation10",
+     "seconds": 127.8,
+     "sub": 83,
+     "dele": 218,
+     "ins": 39,
+     "n": 1855
+    },
+    {
+     "corpus": "primock",
+     "recording": "day1_consultation14",
+     "seconds": 142.5,
+     "sub": 75,
+     "dele": 161,
+     "ins": 35,
+     "n": 1945
+    },
+    {
+     "corpus": "primock",
+     "recording": "day1_consultation15",
+     "seconds": 103.9,
+     "sub": 50,
+     "dele": 63,
+     "ins": 39,
+     "n": 1263
+    },
+    {
+     "corpus": "primock",
+     "recording": "day2_consultation02",
+     "seconds": 133.4,
+     "sub": 57,
+     "dele": 141,
+     "ins": 26,
+     "n": 1686
+    },
+    {
+     "corpus": "primock",
+     "recording": "day2_consultation03",
+     "seconds": 114.7,
+     "sub": 71,
+     "dele": 99,
+     "ins": 36,
+     "n": 1415
+    },
+    {
+     "corpus": "primock",
+     "recording": "day2_consultation05",
+     "seconds": 161.2,
+     "sub": 33,
+     "dele": 104,
+     "ins": 14,
+     "n": 1917
+    },
+    {
+     "corpus": "primock",
+     "recording": "day2_consultation10",
+     "seconds": 145.7,
+     "sub": 35,
+     "dele": 94,
+     "ins": 18,
+     "n": 1791
+    },
+    {
+     "corpus": "primock",
+     "recording": "day3_consultation01",
+     "seconds": 96.4,
+     "sub": 44,
+     "dele": 105,
+     "ins": 19,
+     "n": 1278
+    },
+    {
+     "corpus": "primock",
+     "recording": "day3_consultation04",
+     "seconds": 92.9,
+     "sub": 54,
+     "dele": 53,
+     "ins": 36,
+     "n": 1111
+    },
+    {
+     "corpus": "primock",
+     "recording": "day3_consultation07",
+     "seconds": 91.7,
+     "sub": 54,
+     "dele": 81,
+     "ins": 28,
+     "n": 1177
+    },
+    {
+     "corpus": "primock",
+     "recording": "day3_consultation10",
+     "seconds": 106.0,
+     "sub": 34,
+     "dele": 55,
+     "ins": 15,
+     "n": 1356
+    },
+    {
+     "corpus": "primock",
+     "recording": "day4_consultation04",
+     "seconds": 79.6,
+     "sub": 25,
+     "dele": 33,
+     "ins": 14,
+     "n": 987
+    },
+    {
+     "corpus": "primock",
+     "recording": "day4_consultation05",
+     "seconds": 116.4,
+     "sub": 65,
+     "dele": 123,
+     "ins": 30,
+     "n": 1564
+    },
+    {
+     "corpus": "primock",
+     "recording": "day4_consultation06",
+     "seconds": 127.1,
+     "sub": 42,
+     "dele": 95,
+     "ins": 24,
+     "n": 1650
+    },
+    {
+     "corpus": "primock",
+     "recording": "day4_consultation08",
+     "seconds": 135.7,
+     "sub": 56,
+     "dele": 117,
+     "ins": 28,
+     "n": 1691
+    },
+    {
+     "corpus": "primock",
+     "recording": "day5_consultation03",
+     "seconds": 182.8,
+     "sub": 52,
+     "dele": 115,
+     "ins": 26,
+     "n": 2488
+    },
+    {
+     "corpus": "primock",
+     "recording": "day5_consultation04",
+     "seconds": 102.7,
+     "sub": 64,
+     "dele": 125,
+     "ins": 47,
+     "n": 1268
+    },
+    {
+     "corpus": "primock",
+     "recording": "day5_consultation12",
+     "seconds": 71.8,
+     "sub": 9,
+     "dele": 34,
+     "ins": 7,
+     "n": 787
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN01",
+     "seconds": 266.4,
+     "sub": 262,
+     "dele": 256,
+     "ins": 203,
+     "n": 3195
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN02",
+     "seconds": 193.3,
+     "sub": 51,
+     "dele": 24,
+     "ins": 61,
+     "n": 2334
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN03",
+     "seconds": 92.8,
+     "sub": 14,
+     "dele": 3,
+     "ins": 12,
+     "n": 1143
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN04",
+     "seconds": 82.8,
+     "sub": 46,
+     "dele": 103,
+     "ins": 39,
+     "n": 925
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN05",
+     "seconds": 250.5,
+     "sub": 98,
+     "dele": 51,
+     "ins": 77,
+     "n": 2750
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN06",
+     "seconds": 93.4,
+     "sub": 31,
+     "dele": 15,
+     "ins": 32,
+     "n": 1166
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN07",
+     "seconds": 119.2,
+     "sub": 49,
+     "dele": 33,
+     "ins": 61,
+     "n": 1456
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN08",
+     "seconds": 94.1,
+     "sub": 16,
+     "dele": 24,
+     "ins": 59,
+     "n": 879
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN09",
+     "seconds": 122.0,
+     "sub": 60,
+     "dele": 30,
+     "ins": 43,
+     "n": 1503
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN10",
+     "seconds": 97.0,
+     "sub": 17,
+     "dele": 21,
+     "ins": 36,
+     "n": 1131
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN11",
+     "seconds": 83.5,
+     "sub": 49,
+     "dele": 16,
+     "ins": 29,
+     "n": 1049
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN12",
+     "seconds": 87.2,
+     "sub": 42,
+     "dele": 13,
+     "ins": 18,
+     "n": 1077
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN13",
+     "seconds": 205.7,
+     "sub": 131,
+     "dele": 62,
+     "ins": 122,
+     "n": 2638
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN14",
+     "seconds": 158.5,
+     "sub": 64,
+     "dele": 65,
+     "ins": 70,
+     "n": 1892
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN15",
+     "seconds": 110.8,
+     "sub": 17,
+     "dele": 5,
+     "ins": 11,
+     "n": 1116
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN16",
+     "seconds": 66.6,
+     "sub": 23,
+     "dele": 11,
+     "ins": 9,
+     "n": 712
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN17",
+     "seconds": 158.5,
+     "sub": 34,
+     "dele": 29,
+     "ins": 16,
+     "n": 1623
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN18",
+     "seconds": 81.2,
+     "sub": 18,
+     "dele": 23,
+     "ins": 63,
+     "n": 846
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN19",
+     "seconds": 146.3,
+     "sub": 31,
+     "dele": 70,
+     "ins": 66,
+     "n": 1809
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN20",
+     "seconds": 106.3,
+     "sub": 16,
+     "dele": 42,
+     "ins": 59,
+     "n": 1307
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN21",
+     "seconds": 155.0,
+     "sub": 25,
+     "dele": 17,
+     "ins": 14,
+     "n": 1665
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN22",
+     "seconds": 162.3,
+     "sub": 59,
+     "dele": 44,
+     "ins": 66,
+     "n": 1962
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN23",
+     "seconds": 22.5,
+     "sub": 5,
+     "dele": 19,
+     "ins": 16,
+     "n": 260
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN24",
+     "seconds": 52.0,
+     "sub": 5,
+     "dele": 10,
+     "ins": 8,
+     "n": 560
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN25",
+     "seconds": 91.7,
+     "sub": 12,
+     "dele": 19,
+     "ins": 9,
+     "n": 1011
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN26",
+     "seconds": 67.1,
+     "sub": 12,
+     "dele": 14,
+     "ins": 55,
+     "n": 751
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN27",
+     "seconds": 81.8,
+     "sub": 10,
+     "dele": 6,
+     "ins": 7,
+     "n": 864
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN28",
+     "seconds": 100.8,
+     "sub": 16,
+     "dele": 33,
+     "ins": 10,
+     "n": 1104
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN29",
+     "seconds": 154.3,
+     "sub": 12,
+     "dele": 9,
+     "ins": 14,
+     "n": 1755
+    }
+   ]
+  },
+  "22": {
+   "trial": 22,
+   "wer": {
+    "fareez": 0.06974998122982205,
+    "primock": 0.12415124484090001,
+    "afrispeech": 0.08890151421584369
+   },
+   "mean_wer": 0.09426758009552193,
+   "counts": {
+    "fareez": {
+     "sub": 1031,
+     "dele": 1136,
+     "ins": 1549,
+     "n": 53276
+    },
+    "primock": {
+     "sub": 994,
+     "dele": 2163,
+     "ins": 573,
+     "n": 30044
+    },
+    "afrispeech": {
+     "sub": 1233,
+     "dele": 1031,
+     "ins": 1335,
+     "n": 40483
+    }
+   },
+   "n": {
+    "fareez": 40,
+    "primock": 20,
+    "afrispeech": 29
+   },
+   "per_recording": [
+    {
+     "corpus": "fareez",
+     "recording": "RES0151",
+     "seconds": 110.0,
+     "sub": 25,
+     "dele": 15,
+     "ins": 41,
+     "n": 1152
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0204",
+     "seconds": 97.9,
+     "sub": 14,
+     "dele": 22,
+     "ins": 20,
+     "n": 995
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0147",
+     "seconds": 129.5,
+     "sub": 37,
+     "dele": 44,
+     "ins": 31,
+     "n": 1276
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0034",
+     "seconds": 157.3,
+     "sub": 25,
+     "dele": 24,
+     "ins": 36,
+     "n": 1683
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0042",
+     "seconds": 123.8,
+     "sub": 40,
+     "dele": 43,
+     "ins": 23,
+     "n": 1268
+    },
+    {
+     "corpus": "fareez",
+     "recording": "MSK0029",
+     "seconds": 202.1,
+     "sub": 44,
+     "dele": 63,
+     "ins": 44,
+     "n": 2265
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0074",
+     "seconds": 131.3,
+     "sub": 15,
+     "dele": 9,
+     "ins": 86,
+     "n": 1242
+    },
+    {
+     "corpus": "fareez",
+     "recording": "MSK0034",
+     "seconds": 133.3,
+     "sub": 29,
+     "dele": 31,
+     "ins": 36,
+     "n": 1452
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0078",
+     "seconds": 127.6,
+     "sub": 23,
+     "dele": 4,
+     "ins": 78,
+     "n": 1136
+    },
+    {
+     "corpus": "fareez",
+     "recording": "MSK0012",
+     "seconds": 153.2,
+     "sub": 28,
+     "dele": 22,
+     "ins": 27,
+     "n": 1654
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0188",
+     "seconds": 91.4,
+     "sub": 14,
+     "dele": 14,
+     "ins": 18,
+     "n": 952
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0052",
+     "seconds": 85.6,
+     "sub": 22,
+     "dele": 24,
+     "ins": 40,
+     "n": 816
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0118",
+     "seconds": 89.9,
+     "sub": 14,
+     "dele": 20,
+     "ins": 14,
+     "n": 947
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0120",
+     "seconds": 129.9,
+     "sub": 8,
+     "dele": 39,
+     "ins": 9,
+     "n": 1390
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0189",
+     "seconds": 141.4,
+     "sub": 31,
+     "dele": 17,
+     "ins": 33,
+     "n": 1432
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0130",
+     "seconds": 123.7,
+     "sub": 21,
+     "dele": 15,
+     "ins": 26,
+     "n": 1340
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0055",
+     "seconds": 150.3,
+     "sub": 23,
+     "dele": 25,
+     "ins": 94,
+     "n": 1380
+    },
+    {
+     "corpus": "fareez",
+     "recording": "DER0001",
+     "seconds": 137.7,
+     "sub": 42,
+     "dele": 30,
+     "ins": 55,
+     "n": 1556
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0011",
+     "seconds": 166.1,
+     "sub": 21,
+     "dele": 48,
+     "ins": 39,
+     "n": 1654
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0171",
+     "seconds": 133.6,
+     "sub": 39,
+     "dele": 29,
+     "ins": 43,
+     "n": 1366
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0184",
+     "seconds": 102.9,
+     "sub": 14,
+     "dele": 25,
+     "ins": 28,
+     "n": 964
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0030",
+     "seconds": 119.4,
+     "sub": 15,
+     "dele": 17,
+     "ins": 28,
+     "n": 1185
+    },
+    {
+     "corpus": "fareez",
+     "recording": "MSK0021",
+     "seconds": 180.3,
+     "sub": 47,
+     "dele": 49,
+     "ins": 48,
+     "n": 1734
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0043",
+     "seconds": 146.3,
+     "sub": 42,
+     "dele": 66,
+     "ins": 42,
+     "n": 1507
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0067",
+     "seconds": 94.3,
+     "sub": 22,
+     "dele": 11,
+     "ins": 62,
+     "n": 947
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0214",
+     "seconds": 112.9,
+     "sub": 24,
+     "dele": 18,
+     "ins": 27,
+     "n": 1127
+    },
+    {
+     "corpus": "fareez",
+     "recording": "GAS0003",
+     "seconds": 108.9,
+     "sub": 15,
+     "dele": 37,
+     "ins": 27,
+     "n": 1094
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0192",
+     "seconds": 132.0,
+     "sub": 28,
+     "dele": 35,
+     "ins": 24,
+     "n": 1278
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0027",
+     "seconds": 136.4,
+     "sub": 33,
+     "dele": 48,
+     "ins": 33,
+     "n": 1369
+    },
+    {
+     "corpus": "fareez",
+     "recording": "MSK0009",
+     "seconds": 162.4,
+     "sub": 27,
+     "dele": 34,
+     "ins": 63,
+     "n": 1566
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0004",
+     "seconds": 170.1,
+     "sub": 44,
+     "dele": 29,
+     "ins": 50,
+     "n": 1728
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0169",
+     "seconds": 95.8,
+     "sub": 34,
+     "dele": 23,
+     "ins": 42,
+     "n": 946
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0106",
+     "seconds": 133.0,
+     "sub": 20,
+     "dele": 41,
+     "ins": 33,
+     "n": 1299
+    },
+    {
+     "corpus": "fareez",
+     "recording": "MSK0015",
+     "seconds": 164.1,
+     "sub": 34,
+     "dele": 48,
+     "ins": 38,
+     "n": 1624
+    },
+    {
+     "corpus": "fareez",
+     "recording": "CAR0005",
+     "seconds": 125.9,
+     "sub": 14,
+     "dele": 13,
+     "ins": 33,
+     "n": 1289
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0005",
+     "seconds": 175.8,
+     "sub": 33,
+     "dele": 18,
+     "ins": 41,
+     "n": 1650
+    },
+    {
+     "corpus": "fareez",
+     "recording": "MSK0044",
+     "seconds": 115.3,
+     "sub": 21,
+     "dele": 30,
+     "ins": 32,
+     "n": 1185
+    },
+    {
+     "corpus": "fareez",
+     "recording": "GEN0001",
+     "seconds": 105.8,
+     "sub": 15,
+     "dele": 27,
+     "ins": 22,
+     "n": 1135
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0088",
+     "seconds": 142.0,
+     "sub": 20,
+     "dele": 15,
+     "ins": 60,
+     "n": 1363
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0016",
+     "seconds": 135.6,
+     "sub": 14,
+     "dele": 14,
+     "ins": 23,
+     "n": 1330
+    },
+    {
+     "corpus": "primock",
+     "recording": "day1_consultation04",
+     "seconds": 145.4,
+     "sub": 62,
+     "dele": 163,
+     "ins": 59,
+     "n": 1651
+    },
+    {
+     "corpus": "primock",
+     "recording": "day1_consultation08",
+     "seconds": 109.7,
+     "sub": 54,
+     "dele": 86,
+     "ins": 17,
+     "n": 1164
+    },
+    {
+     "corpus": "primock",
+     "recording": "day1_consultation10",
+     "seconds": 158.2,
+     "sub": 72,
+     "dele": 207,
+     "ins": 39,
+     "n": 1855
+    },
+    {
+     "corpus": "primock",
+     "recording": "day1_consultation14",
+     "seconds": 158.3,
+     "sub": 76,
+     "dele": 159,
+     "ins": 35,
+     "n": 1945
+    },
+    {
+     "corpus": "primock",
+     "recording": "day1_consultation15",
+     "seconds": 118.5,
+     "sub": 46,
+     "dele": 72,
+     "ins": 46,
+     "n": 1263
+    },
+    {
+     "corpus": "primock",
+     "recording": "day2_consultation02",
+     "seconds": 141.1,
+     "sub": 56,
+     "dele": 148,
+     "ins": 22,
+     "n": 1686
+    },
+    {
+     "corpus": "primock",
+     "recording": "day2_consultation03",
+     "seconds": 121.8,
+     "sub": 68,
+     "dele": 119,
+     "ins": 35,
+     "n": 1415
+    },
+    {
+     "corpus": "primock",
+     "recording": "day2_consultation05",
+     "seconds": 159.1,
+     "sub": 31,
+     "dele": 110,
+     "ins": 12,
+     "n": 1917
+    },
+    {
+     "corpus": "primock",
+     "recording": "day2_consultation10",
+     "seconds": 161.3,
+     "sub": 34,
+     "dele": 101,
+     "ins": 16,
+     "n": 1791
+    },
+    {
+     "corpus": "primock",
+     "recording": "day3_consultation01",
+     "seconds": 114.9,
+     "sub": 44,
+     "dele": 106,
+     "ins": 18,
+     "n": 1278
+    },
+    {
+     "corpus": "primock",
+     "recording": "day3_consultation04",
+     "seconds": 106.9,
+     "sub": 50,
+     "dele": 52,
+     "ins": 33,
+     "n": 1111
+    },
+    {
+     "corpus": "primock",
+     "recording": "day3_consultation07",
+     "seconds": 103.1,
+     "sub": 53,
+     "dele": 65,
+     "ins": 36,
+     "n": 1177
+    },
+    {
+     "corpus": "primock",
+     "recording": "day3_consultation10",
+     "seconds": 122.3,
+     "sub": 31,
+     "dele": 69,
+     "ins": 15,
+     "n": 1356
+    },
+    {
+     "corpus": "primock",
+     "recording": "day4_consultation04",
+     "seconds": 91.1,
+     "sub": 22,
+     "dele": 24,
+     "ins": 15,
+     "n": 987
+    },
+    {
+     "corpus": "primock",
+     "recording": "day4_consultation05",
+     "seconds": 129.4,
+     "sub": 62,
+     "dele": 186,
+     "ins": 25,
+     "n": 1564
+    },
+    {
+     "corpus": "primock",
+     "recording": "day4_consultation06",
+     "seconds": 148.7,
+     "sub": 37,
+     "dele": 83,
+     "ins": 29,
+     "n": 1650
+    },
+    {
+     "corpus": "primock",
+     "recording": "day4_consultation08",
+     "seconds": 139.5,
+     "sub": 63,
+     "dele": 118,
+     "ins": 32,
+     "n": 1691
+    },
+    {
+     "corpus": "primock",
+     "recording": "day5_consultation03",
+     "seconds": 200.1,
+     "sub": 52,
+     "dele": 122,
+     "ins": 28,
+     "n": 2488
+    },
+    {
+     "corpus": "primock",
+     "recording": "day5_consultation04",
+     "seconds": 113.2,
+     "sub": 65,
+     "dele": 139,
+     "ins": 49,
+     "n": 1268
+    },
+    {
+     "corpus": "primock",
+     "recording": "day5_consultation12",
+     "seconds": 72.3,
+     "sub": 16,
+     "dele": 34,
+     "ins": 12,
+     "n": 787
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN01",
+     "seconds": 302.9,
+     "sub": 248,
+     "dele": 228,
+     "ins": 240,
+     "n": 3195
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN02",
+     "seconds": 205.9,
+     "sub": 61,
+     "dele": 19,
+     "ins": 65,
+     "n": 2334
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN03",
+     "seconds": 107.1,
+     "sub": 18,
+     "dele": 5,
+     "ins": 16,
+     "n": 1143
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN04",
+     "seconds": 84.3,
+     "sub": 50,
+     "dele": 110,
+     "ins": 33,
+     "n": 925
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN05",
+     "seconds": 260.3,
+     "sub": 74,
+     "dele": 49,
+     "ins": 76,
+     "n": 2750
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN06",
+     "seconds": 101.9,
+     "sub": 32,
+     "dele": 22,
+     "ins": 27,
+     "n": 1166
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN07",
+     "seconds": 129.9,
+     "sub": 44,
+     "dele": 56,
+     "ins": 50,
+     "n": 1456
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN08",
+     "seconds": 92.7,
+     "sub": 18,
+     "dele": 22,
+     "ins": 48,
+     "n": 879
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN09",
+     "seconds": 135.4,
+     "sub": 49,
+     "dele": 55,
+     "ins": 47,
+     "n": 1503
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN10",
+     "seconds": 114.5,
+     "sub": 23,
+     "dele": 14,
+     "ins": 42,
+     "n": 1131
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN11",
+     "seconds": 95.7,
+     "sub": 49,
+     "dele": 17,
+     "ins": 14,
+     "n": 1049
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN12",
+     "seconds": 94.6,
+     "sub": 45,
+     "dele": 17,
+     "ins": 32,
+     "n": 1077
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN13",
+     "seconds": 222.9,
+     "sub": 126,
+     "dele": 67,
+     "ins": 114,
+     "n": 2638
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN14",
+     "seconds": 173.0,
+     "sub": 64,
+     "dele": 69,
+     "ins": 95,
+     "n": 1892
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN15",
+     "seconds": 118.9,
+     "sub": 17,
+     "dele": 5,
+     "ins": 14,
+     "n": 1116
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN16",
+     "seconds": 72.3,
+     "sub": 26,
+     "dele": 2,
+     "ins": 10,
+     "n": 712
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN17",
+     "seconds": 164.1,
+     "sub": 35,
+     "dele": 12,
+     "ins": 24,
+     "n": 1623
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN18",
+     "seconds": 78.2,
+     "sub": 14,
+     "dele": 18,
+     "ins": 55,
+     "n": 846
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN19",
+     "seconds": 161.2,
+     "sub": 38,
+     "dele": 83,
+     "ins": 60,
+     "n": 1809
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN20",
+     "seconds": 121.9,
+     "sub": 22,
+     "dele": 29,
+     "ins": 50,
+     "n": 1307
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN21",
+     "seconds": 169.7,
+     "sub": 27,
+     "dele": 14,
+     "ins": 14,
+     "n": 1665
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN22",
+     "seconds": 176.9,
+     "sub": 61,
+     "dele": 36,
+     "ins": 67,
+     "n": 1962
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN23",
+     "seconds": 23.2,
+     "sub": 6,
+     "dele": 17,
+     "ins": 17,
+     "n": 260
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN24",
+     "seconds": 57.3,
+     "sub": 7,
+     "dele": 5,
+     "ins": 10,
+     "n": 560
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN25",
+     "seconds": 101.3,
+     "sub": 12,
+     "dele": 27,
+     "ins": 13,
+     "n": 1011
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN26",
+     "seconds": 64.3,
+     "sub": 22,
+     "dele": 13,
+     "ins": 56,
+     "n": 751
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN27",
+     "seconds": 71.9,
+     "sub": 13,
+     "dele": 5,
+     "ins": 11,
+     "n": 864
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN28",
+     "seconds": 109.7,
+     "sub": 18,
+     "dele": 4,
+     "ins": 15,
+     "n": 1104
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN29",
+     "seconds": 169.8,
+     "sub": 14,
+     "dele": 11,
+     "ins": 20,
+     "n": 1755
+    }
+   ]
+  },
+  "21": {
+   "trial": 21,
+   "wer": {
+    "fareez": 0.07050078834747353,
+    "primock": 0.12172147516975103,
+    "afrispeech": 0.08998839018847417
+   },
+   "mean_wer": 0.09407021790189958,
+   "counts": {
+    "fareez": {
+     "sub": 997,
+     "dele": 1343,
+     "ins": 1416,
+     "n": 53276
+    },
+    "primock": {
+     "sub": 1014,
+     "dele": 2075,
+     "ins": 568,
+     "n": 30044
+    },
+    "afrispeech": {
+     "sub": 1245,
+     "dele": 1045,
+     "ins": 1353,
+     "n": 40483
+    }
+   },
+   "n": {
+    "fareez": 40,
+    "primock": 20,
+    "afrispeech": 29
+   },
+   "per_recording": [
+    {
+     "corpus": "fareez",
+     "recording": "RES0151",
+     "seconds": 102.0,
+     "sub": 22,
+     "dele": 9,
+     "ins": 45,
+     "n": 1152
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0204",
+     "seconds": 84.7,
+     "sub": 13,
+     "dele": 26,
+     "ins": 12,
+     "n": 995
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0147",
+     "seconds": 107.3,
+     "sub": 31,
+     "dele": 60,
+     "ins": 29,
+     "n": 1276
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0034",
+     "seconds": 135.4,
+     "sub": 26,
+     "dele": 33,
+     "ins": 26,
+     "n": 1683
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0042",
+     "seconds": 110.0,
+     "sub": 35,
+     "dele": 45,
+     "ins": 19,
+     "n": 1268
+    },
+    {
+     "corpus": "fareez",
+     "recording": "MSK0029",
+     "seconds": 188.8,
+     "sub": 48,
+     "dele": 79,
+     "ins": 39,
+     "n": 2265
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0074",
+     "seconds": 114.0,
+     "sub": 16,
+     "dele": 11,
+     "ins": 95,
+     "n": 1242
+    },
+    {
+     "corpus": "fareez",
+     "recording": "MSK0034",
+     "seconds": 111.9,
+     "sub": 33,
+     "dele": 29,
+     "ins": 37,
+     "n": 1452
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0078",
+     "seconds": 100.2,
+     "sub": 26,
+     "dele": 20,
+     "ins": 80,
+     "n": 1136
+    },
+    {
+     "corpus": "fareez",
+     "recording": "MSK0012",
+     "seconds": 132.9,
+     "sub": 24,
+     "dele": 20,
+     "ins": 28,
+     "n": 1654
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0188",
+     "seconds": 81.3,
+     "sub": 9,
+     "dele": 21,
+     "ins": 12,
+     "n": 952
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0052",
+     "seconds": 81.4,
+     "sub": 19,
+     "dele": 28,
+     "ins": 24,
+     "n": 816
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0118",
+     "seconds": 77.0,
+     "sub": 14,
+     "dele": 21,
+     "ins": 11,
+     "n": 947
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0120",
+     "seconds": 110.1,
+     "sub": 10,
+     "dele": 41,
+     "ins": 10,
+     "n": 1390
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0189",
+     "seconds": 137.6,
+     "sub": 29,
+     "dele": 21,
+     "ins": 32,
+     "n": 1432
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0130",
+     "seconds": 114.1,
+     "sub": 22,
+     "dele": 20,
+     "ins": 27,
+     "n": 1340
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0055",
+     "seconds": 136.5,
+     "sub": 27,
+     "dele": 20,
+     "ins": 91,
+     "n": 1380
+    },
+    {
+     "corpus": "fareez",
+     "recording": "DER0001",
+     "seconds": 126.0,
+     "sub": 47,
+     "dele": 33,
+     "ins": 62,
+     "n": 1556
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0011",
+     "seconds": 149.7,
+     "sub": 21,
+     "dele": 55,
+     "ins": 35,
+     "n": 1654
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0171",
+     "seconds": 122.5,
+     "sub": 35,
+     "dele": 39,
+     "ins": 32,
+     "n": 1366
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0184",
+     "seconds": 89.0,
+     "sub": 11,
+     "dele": 28,
+     "ins": 26,
+     "n": 964
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0030",
+     "seconds": 103.9,
+     "sub": 14,
+     "dele": 31,
+     "ins": 25,
+     "n": 1185
+    },
+    {
+     "corpus": "fareez",
+     "recording": "MSK0021",
+     "seconds": 170.0,
+     "sub": 44,
+     "dele": 47,
+     "ins": 40,
+     "n": 1734
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0043",
+     "seconds": 130.1,
+     "sub": 44,
+     "dele": 66,
+     "ins": 38,
+     "n": 1507
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0067",
+     "seconds": 86.9,
+     "sub": 20,
+     "dele": 12,
+     "ins": 56,
+     "n": 947
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0214",
+     "seconds": 88.9,
+     "sub": 24,
+     "dele": 22,
+     "ins": 18,
+     "n": 1127
+    },
+    {
+     "corpus": "fareez",
+     "recording": "GAS0003",
+     "seconds": 96.7,
+     "sub": 13,
+     "dele": 52,
+     "ins": 24,
+     "n": 1094
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0192",
+     "seconds": 113.6,
+     "sub": 23,
+     "dele": 40,
+     "ins": 17,
+     "n": 1278
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0027",
+     "seconds": 129.3,
+     "sub": 38,
+     "dele": 37,
+     "ins": 32,
+     "n": 1369
+    },
+    {
+     "corpus": "fareez",
+     "recording": "MSK0009",
+     "seconds": 140.0,
+     "sub": 23,
+     "dele": 33,
+     "ins": 59,
+     "n": 1566
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0004",
+     "seconds": 160.1,
+     "sub": 44,
+     "dele": 32,
+     "ins": 58,
+     "n": 1728
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0169",
+     "seconds": 88.2,
+     "sub": 32,
+     "dele": 48,
+     "ins": 38,
+     "n": 946
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0106",
+     "seconds": 120.9,
+     "sub": 20,
+     "dele": 57,
+     "ins": 23,
+     "n": 1299
+    },
+    {
+     "corpus": "fareez",
+     "recording": "MSK0015",
+     "seconds": 142.6,
+     "sub": 35,
+     "dele": 67,
+     "ins": 35,
+     "n": 1624
+    },
+    {
+     "corpus": "fareez",
+     "recording": "CAR0005",
+     "seconds": 108.7,
+     "sub": 9,
+     "dele": 31,
+     "ins": 26,
+     "n": 1289
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0005",
+     "seconds": 145.9,
+     "sub": 31,
+     "dele": 24,
+     "ins": 36,
+     "n": 1650
+    },
+    {
+     "corpus": "fareez",
+     "recording": "MSK0044",
+     "seconds": 100.5,
+     "sub": 17,
+     "dele": 29,
+     "ins": 31,
+     "n": 1185
+    },
+    {
+     "corpus": "fareez",
+     "recording": "GEN0001",
+     "seconds": 91.5,
+     "sub": 17,
+     "dele": 24,
+     "ins": 22,
+     "n": 1135
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0088",
+     "seconds": 126.3,
+     "sub": 17,
+     "dele": 17,
+     "ins": 44,
+     "n": 1363
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0016",
+     "seconds": 126.5,
+     "sub": 14,
+     "dele": 15,
+     "ins": 22,
+     "n": 1330
+    },
+    {
+     "corpus": "primock",
+     "recording": "day1_consultation04",
+     "seconds": 120.4,
+     "sub": 77,
+     "dele": 122,
+     "ins": 47,
+     "n": 1651
+    },
+    {
+     "corpus": "primock",
+     "recording": "day1_consultation08",
+     "seconds": 92.7,
+     "sub": 51,
+     "dele": 76,
+     "ins": 22,
+     "n": 1164
+    },
+    {
+     "corpus": "primock",
+     "recording": "day1_consultation10",
+     "seconds": 136.7,
+     "sub": 71,
+     "dele": 219,
+     "ins": 37,
+     "n": 1855
+    },
+    {
+     "corpus": "primock",
+     "recording": "day1_consultation14",
+     "seconds": 153.4,
+     "sub": 75,
+     "dele": 156,
+     "ins": 36,
+     "n": 1945
+    },
+    {
+     "corpus": "primock",
+     "recording": "day1_consultation15",
+     "seconds": 103.1,
+     "sub": 49,
+     "dele": 82,
+     "ins": 39,
+     "n": 1263
+    },
+    {
+     "corpus": "primock",
+     "recording": "day2_consultation02",
+     "seconds": 126.8,
+     "sub": 43,
+     "dele": 132,
+     "ins": 30,
+     "n": 1686
+    },
+    {
+     "corpus": "primock",
+     "recording": "day2_consultation03",
+     "seconds": 105.4,
+     "sub": 84,
+     "dele": 127,
+     "ins": 24,
+     "n": 1415
+    },
+    {
+     "corpus": "primock",
+     "recording": "day2_consultation05",
+     "seconds": 150.4,
+     "sub": 35,
+     "dele": 101,
+     "ins": 18,
+     "n": 1917
+    },
+    {
+     "corpus": "primock",
+     "recording": "day2_consultation10",
+     "seconds": 137.3,
+     "sub": 41,
+     "dele": 99,
+     "ins": 22,
+     "n": 1791
+    },
+    {
+     "corpus": "primock",
+     "recording": "day3_consultation01",
+     "seconds": 99.7,
+     "sub": 41,
+     "dele": 99,
+     "ins": 17,
+     "n": 1278
+    },
+    {
+     "corpus": "primock",
+     "recording": "day3_consultation04",
+     "seconds": 90.0,
+     "sub": 58,
+     "dele": 51,
+     "ins": 30,
+     "n": 1111
+    },
+    {
+     "corpus": "primock",
+     "recording": "day3_consultation07",
+     "seconds": 99.1,
+     "sub": 56,
+     "dele": 69,
+     "ins": 35,
+     "n": 1177
+    },
+    {
+     "corpus": "primock",
+     "recording": "day3_consultation10",
+     "seconds": 106.3,
+     "sub": 39,
+     "dele": 50,
+     "ins": 18,
+     "n": 1356
+    },
+    {
+     "corpus": "primock",
+     "recording": "day4_consultation04",
+     "seconds": 76.9,
+     "sub": 30,
+     "dele": 38,
+     "ins": 20,
+     "n": 987
+    },
+    {
+     "corpus": "primock",
+     "recording": "day4_consultation05",
+     "seconds": 108.9,
+     "sub": 55,
+     "dele": 170,
+     "ins": 21,
+     "n": 1564
+    },
+    {
+     "corpus": "primock",
+     "recording": "day4_consultation06",
+     "seconds": 134.4,
+     "sub": 51,
+     "dele": 76,
+     "ins": 38,
+     "n": 1650
+    },
+    {
+     "corpus": "primock",
+     "recording": "day4_consultation08",
+     "seconds": 133.5,
+     "sub": 51,
+     "dele": 131,
+     "ins": 29,
+     "n": 1691
+    },
+    {
+     "corpus": "primock",
+     "recording": "day5_consultation03",
+     "seconds": 171.8,
+     "sub": 41,
+     "dele": 109,
+     "ins": 28,
+     "n": 2488
+    },
+    {
+     "corpus": "primock",
+     "recording": "day5_consultation04",
+     "seconds": 98.7,
+     "sub": 56,
+     "dele": 124,
+     "ins": 47,
+     "n": 1268
+    },
+    {
+     "corpus": "primock",
+     "recording": "day5_consultation12",
+     "seconds": 67.1,
+     "sub": 10,
+     "dele": 44,
+     "ins": 10,
+     "n": 787
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN01",
+     "seconds": 264.6,
+     "sub": 264,
+     "dele": 258,
+     "ins": 211,
+     "n": 3195
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN02",
+     "seconds": 181.8,
+     "sub": 53,
+     "dele": 27,
+     "ins": 52,
+     "n": 2334
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN03",
+     "seconds": 93.0,
+     "sub": 18,
+     "dele": 5,
+     "ins": 14,
+     "n": 1143
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN04",
+     "seconds": 75.1,
+     "sub": 62,
+     "dele": 72,
+     "ins": 58,
+     "n": 925
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN05",
+     "seconds": 280.4,
+     "sub": 77,
+     "dele": 52,
+     "ins": 75,
+     "n": 2750
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN06",
+     "seconds": 91.0,
+     "sub": 27,
+     "dele": 18,
+     "ins": 30,
+     "n": 1166
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN07",
+     "seconds": 124.4,
+     "sub": 53,
+     "dele": 29,
+     "ins": 59,
+     "n": 1456
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN08",
+     "seconds": 85.6,
+     "sub": 20,
+     "dele": 18,
+     "ins": 71,
+     "n": 879
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN09",
+     "seconds": 143.3,
+     "sub": 58,
+     "dele": 34,
+     "ins": 34,
+     "n": 1503
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN10",
+     "seconds": 87.8,
+     "sub": 24,
+     "dele": 13,
+     "ins": 31,
+     "n": 1131
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN11",
+     "seconds": 85.5,
+     "sub": 42,
+     "dele": 25,
+     "ins": 24,
+     "n": 1049
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN12",
+     "seconds": 96.1,
+     "sub": 37,
+     "dele": 27,
+     "ins": 21,
+     "n": 1077
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN13",
+     "seconds": 215.5,
+     "sub": 111,
+     "dele": 59,
+     "ins": 146,
+     "n": 2638
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN14",
+     "seconds": 145.3,
+     "sub": 78,
+     "dele": 96,
+     "ins": 65,
+     "n": 1892
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN15",
+     "seconds": 101.0,
+     "sub": 19,
+     "dele": 4,
+     "ins": 15,
+     "n": 1116
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN16",
+     "seconds": 65.7,
+     "sub": 24,
+     "dele": 1,
+     "ins": 6,
+     "n": 712
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN17",
+     "seconds": 145.2,
+     "sub": 31,
+     "dele": 24,
+     "ins": 20,
+     "n": 1623
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN18",
+     "seconds": 72.0,
+     "sub": 15,
+     "dele": 22,
+     "ins": 54,
+     "n": 846
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN19",
+     "seconds": 147.5,
+     "sub": 36,
+     "dele": 74,
+     "ins": 70,
+     "n": 1809
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN20",
+     "seconds": 107.8,
+     "sub": 28,
+     "dele": 26,
+     "ins": 58,
+     "n": 1307
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN21",
+     "seconds": 147.4,
+     "sub": 29,
+     "dele": 14,
+     "ins": 11,
+     "n": 1665
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN22",
+     "seconds": 161.9,
+     "sub": 58,
+     "dele": 41,
+     "ins": 103,
+     "n": 1962
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN23",
+     "seconds": 23.0,
+     "sub": 7,
+     "dele": 20,
+     "ins": 14,
+     "n": 260
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN24",
+     "seconds": 53.0,
+     "sub": 7,
+     "dele": 7,
+     "ins": 6,
+     "n": 560
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN25",
+     "seconds": 92.1,
+     "sub": 16,
+     "dele": 19,
+     "ins": 12,
+     "n": 1011
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN26",
+     "seconds": 87.3,
+     "sub": 10,
+     "dele": 29,
+     "ins": 56,
+     "n": 751
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN27",
+     "seconds": 75.1,
+     "sub": 16,
+     "dele": 8,
+     "ins": 9,
+     "n": 864
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN28",
+     "seconds": 97.1,
+     "sub": 12,
+     "dele": 14,
+     "ins": 15,
+     "n": 1104
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN29",
+     "seconds": 149.3,
+     "sub": 13,
+     "dele": 9,
+     "ins": 13,
+     "n": 1755
+    }
+   ]
+  },
+  "26": {
+   "trial": 26,
+   "wer": {
+    "fareez": 0.06907425482393573,
+    "primock": 0.1269471441885235,
+    "afrispeech": 0.0888274090358916
+   },
+   "mean_wer": 0.09494960268278362,
+   "counts": {
+    "fareez": {
+     "sub": 1051,
+     "dele": 1052,
+     "ins": 1577,
+     "n": 53276
+    },
+    "primock": {
+     "sub": 1037,
+     "dele": 2175,
+     "ins": 602,
+     "n": 30044
+    },
+    "afrispeech": {
+     "sub": 1232,
+     "dele": 1014,
+     "ins": 1350,
+     "n": 40483
+    }
+   },
+   "n": {
+    "fareez": 40,
+    "primock": 20,
+    "afrispeech": 29
+   },
+   "per_recording": [
+    {
+     "corpus": "fareez",
+     "recording": "RES0151",
+     "seconds": 121.4,
+     "sub": 25,
+     "dele": 9,
+     "ins": 45,
+     "n": 1152
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0204",
+     "seconds": 102.9,
+     "sub": 13,
+     "dele": 21,
+     "ins": 19,
+     "n": 995
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0147",
+     "seconds": 128.7,
+     "sub": 35,
+     "dele": 50,
+     "ins": 37,
+     "n": 1276
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0034",
+     "seconds": 163.6,
+     "sub": 26,
+     "dele": 15,
+     "ins": 41,
+     "n": 1683
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0042",
+     "seconds": 126.1,
+     "sub": 37,
+     "dele": 44,
+     "ins": 24,
+     "n": 1268
+    },
+    {
+     "corpus": "fareez",
+     "recording": "MSK0029",
+     "seconds": 223.1,
+     "sub": 50,
+     "dele": 59,
+     "ins": 51,
+     "n": 2265
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0074",
+     "seconds": 138.9,
+     "sub": 18,
+     "dele": 9,
+     "ins": 88,
+     "n": 1242
+    },
+    {
+     "corpus": "fareez",
+     "recording": "MSK0034",
+     "seconds": 139.8,
+     "sub": 31,
+     "dele": 27,
+     "ins": 36,
+     "n": 1452
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0078",
+     "seconds": 126.5,
+     "sub": 26,
+     "dele": 10,
+     "ins": 91,
+     "n": 1136
+    },
+    {
+     "corpus": "fareez",
+     "recording": "MSK0012",
+     "seconds": 161.1,
+     "sub": 27,
+     "dele": 18,
+     "ins": 32,
+     "n": 1654
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0188",
+     "seconds": 96.1,
+     "sub": 10,
+     "dele": 21,
+     "ins": 20,
+     "n": 952
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0052",
+     "seconds": 94.4,
+     "sub": 27,
+     "dele": 19,
+     "ins": 40,
+     "n": 816
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0118",
+     "seconds": 87.9,
+     "sub": 14,
+     "dele": 23,
+     "ins": 11,
+     "n": 947
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0120",
+     "seconds": 139.5,
+     "sub": 11,
+     "dele": 27,
+     "ins": 14,
+     "n": 1390
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0189",
+     "seconds": 139.5,
+     "sub": 32,
+     "dele": 16,
+     "ins": 39,
+     "n": 1432
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0130",
+     "seconds": 129.4,
+     "sub": 20,
+     "dele": 25,
+     "ins": 23,
+     "n": 1340
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0055",
+     "seconds": 154.8,
+     "sub": 24,
+     "dele": 21,
+     "ins": 109,
+     "n": 1380
+    },
+    {
+     "corpus": "fareez",
+     "recording": "DER0001",
+     "seconds": 144.6,
+     "sub": 54,
+     "dele": 27,
+     "ins": 59,
+     "n": 1556
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0011",
+     "seconds": 158.4,
+     "sub": 24,
+     "dele": 37,
+     "ins": 39,
+     "n": 1654
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0171",
+     "seconds": 134.1,
+     "sub": 30,
+     "dele": 37,
+     "ins": 32,
+     "n": 1366
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0184",
+     "seconds": 103.8,
+     "sub": 19,
+     "dele": 20,
+     "ins": 30,
+     "n": 964
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0030",
+     "seconds": 121.8,
+     "sub": 19,
+     "dele": 20,
+     "ins": 33,
+     "n": 1185
+    },
+    {
+     "corpus": "fareez",
+     "recording": "MSK0021",
+     "seconds": 181.1,
+     "sub": 38,
+     "dele": 50,
+     "ins": 43,
+     "n": 1734
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0043",
+     "seconds": 144.4,
+     "sub": 37,
+     "dele": 53,
+     "ins": 34,
+     "n": 1507
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0067",
+     "seconds": 93.1,
+     "sub": 26,
+     "dele": 10,
+     "ins": 64,
+     "n": 947
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0214",
+     "seconds": 110.3,
+     "sub": 19,
+     "dele": 11,
+     "ins": 25,
+     "n": 1127
+    },
+    {
+     "corpus": "fareez",
+     "recording": "GAS0003",
+     "seconds": 112.8,
+     "sub": 15,
+     "dele": 34,
+     "ins": 37,
+     "n": 1094
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0192",
+     "seconds": 129.4,
+     "sub": 24,
+     "dele": 35,
+     "ins": 19,
+     "n": 1278
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0027",
+     "seconds": 122.3,
+     "sub": 37,
+     "dele": 31,
+     "ins": 26,
+     "n": 1369
+    },
+    {
+     "corpus": "fareez",
+     "recording": "MSK0009",
+     "seconds": 148.8,
+     "sub": 24,
+     "dele": 33,
+     "ins": 66,
+     "n": 1566
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0004",
+     "seconds": 177.2,
+     "sub": 46,
+     "dele": 33,
+     "ins": 49,
+     "n": 1728
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0169",
+     "seconds": 77.9,
+     "sub": 31,
+     "dele": 32,
+     "ins": 34,
+     "n": 946
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0106",
+     "seconds": 137.4,
+     "sub": 20,
+     "dele": 37,
+     "ins": 30,
+     "n": 1299
+    },
+    {
+     "corpus": "fareez",
+     "recording": "MSK0015",
+     "seconds": 159.1,
+     "sub": 38,
+     "dele": 43,
+     "ins": 36,
+     "n": 1624
+    },
+    {
+     "corpus": "fareez",
+     "recording": "CAR0005",
+     "seconds": 120.0,
+     "sub": 16,
+     "dele": 27,
+     "ins": 33,
+     "n": 1289
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0005",
+     "seconds": 153.8,
+     "sub": 35,
+     "dele": 14,
+     "ins": 37,
+     "n": 1650
+    },
+    {
+     "corpus": "fareez",
+     "recording": "MSK0044",
+     "seconds": 107.2,
+     "sub": 27,
+     "dele": 14,
+     "ins": 32,
+     "n": 1185
+    },
+    {
+     "corpus": "fareez",
+     "recording": "GEN0001",
+     "seconds": 98.9,
+     "sub": 16,
+     "dele": 17,
+     "ins": 30,
+     "n": 1135
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0088",
+     "seconds": 151.4,
+     "sub": 19,
+     "dele": 15,
+     "ins": 51,
+     "n": 1363
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0016",
+     "seconds": 144.2,
+     "sub": 11,
+     "dele": 8,
+     "ins": 18,
+     "n": 1330
+    },
+    {
+     "corpus": "primock",
+     "recording": "day1_consultation04",
+     "seconds": 146.4,
+     "sub": 66,
+     "dele": 119,
+     "ins": 68,
+     "n": 1651
+    },
+    {
+     "corpus": "primock",
+     "recording": "day1_consultation08",
+     "seconds": 106.4,
+     "sub": 48,
+     "dele": 77,
+     "ins": 25,
+     "n": 1164
+    },
+    {
+     "corpus": "primock",
+     "recording": "day1_consultation10",
+     "seconds": 157.8,
+     "sub": 64,
+     "dele": 223,
+     "ins": 37,
+     "n": 1855
+    },
+    {
+     "corpus": "primock",
+     "recording": "day1_consultation14",
+     "seconds": 159.1,
+     "sub": 86,
+     "dele": 138,
+     "ins": 42,
+     "n": 1945
+    },
+    {
+     "corpus": "primock",
+     "recording": "day1_consultation15",
+     "seconds": 122.1,
+     "sub": 54,
+     "dele": 58,
+     "ins": 41,
+     "n": 1263
+    },
+    {
+     "corpus": "primock",
+     "recording": "day2_consultation02",
+     "seconds": 139.0,
+     "sub": 60,
+     "dele": 158,
+     "ins": 27,
+     "n": 1686
+    },
+    {
+     "corpus": "primock",
+     "recording": "day2_consultation03",
+     "seconds": 120.8,
+     "sub": 67,
+     "dele": 126,
+     "ins": 40,
+     "n": 1415
+    },
+    {
+     "corpus": "primock",
+     "recording": "day2_consultation05",
+     "seconds": 163.8,
+     "sub": 33,
+     "dele": 158,
+     "ins": 17,
+     "n": 1917
+    },
+    {
+     "corpus": "primock",
+     "recording": "day2_consultation10",
+     "seconds": 152.3,
+     "sub": 39,
+     "dele": 96,
+     "ins": 21,
+     "n": 1791
+    },
+    {
+     "corpus": "primock",
+     "recording": "day3_consultation01",
+     "seconds": 101.4,
+     "sub": 37,
+     "dele": 132,
+     "ins": 20,
+     "n": 1278
+    },
+    {
+     "corpus": "primock",
+     "recording": "day3_consultation04",
+     "seconds": 100.8,
+     "sub": 53,
+     "dele": 61,
+     "ins": 31,
+     "n": 1111
+    },
+    {
+     "corpus": "primock",
+     "recording": "day3_consultation07",
+     "seconds": 102.2,
+     "sub": 64,
+     "dele": 78,
+     "ins": 36,
+     "n": 1177
+    },
+    {
+     "corpus": "primock",
+     "recording": "day3_consultation10",
+     "seconds": 119.8,
+     "sub": 43,
+     "dele": 49,
+     "ins": 17,
+     "n": 1356
+    },
+    {
+     "corpus": "primock",
+     "recording": "day4_consultation04",
+     "seconds": 88.4,
+     "sub": 26,
+     "dele": 26,
+     "ins": 13,
+     "n": 987
+    },
+    {
+     "corpus": "primock",
+     "recording": "day4_consultation05",
+     "seconds": 122.6,
+     "sub": 59,
+     "dele": 163,
+     "ins": 26,
+     "n": 1564
+    },
+    {
+     "corpus": "primock",
+     "recording": "day4_consultation06",
+     "seconds": 139.6,
+     "sub": 43,
+     "dele": 78,
+     "ins": 22,
+     "n": 1650
+    },
+    {
+     "corpus": "primock",
+     "recording": "day4_consultation08",
+     "seconds": 142.8,
+     "sub": 57,
+     "dele": 146,
+     "ins": 30,
+     "n": 1691
+    },
+    {
+     "corpus": "primock",
+     "recording": "day5_consultation03",
+     "seconds": 193.4,
+     "sub": 65,
+     "dele": 130,
+     "ins": 26,
+     "n": 2488
+    },
+    {
+     "corpus": "primock",
+     "recording": "day5_consultation04",
+     "seconds": 118.4,
+     "sub": 66,
+     "dele": 122,
+     "ins": 54,
+     "n": 1268
+    },
+    {
+     "corpus": "primock",
+     "recording": "day5_consultation12",
+     "seconds": 70.9,
+     "sub": 7,
+     "dele": 37,
+     "ins": 9,
+     "n": 787
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN01",
+     "seconds": 285.7,
+     "sub": 231,
+     "dele": 277,
+     "ins": 202,
+     "n": 3195
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN02",
+     "seconds": 206.3,
+     "sub": 53,
+     "dele": 25,
+     "ins": 61,
+     "n": 2334
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN03",
+     "seconds": 101.8,
+     "sub": 16,
+     "dele": 1,
+     "ins": 13,
+     "n": 1143
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN04",
+     "seconds": 79.8,
+     "sub": 57,
+     "dele": 66,
+     "ins": 69,
+     "n": 925
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN05",
+     "seconds": 247.8,
+     "sub": 82,
+     "dele": 53,
+     "ins": 71,
+     "n": 2750
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN06",
+     "seconds": 97.8,
+     "sub": 28,
+     "dele": 19,
+     "ins": 27,
+     "n": 1166
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN07",
+     "seconds": 124.0,
+     "sub": 45,
+     "dele": 31,
+     "ins": 65,
+     "n": 1456
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN08",
+     "seconds": 93.3,
+     "sub": 21,
+     "dele": 26,
+     "ins": 61,
+     "n": 879
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN09",
+     "seconds": 137.3,
+     "sub": 68,
+     "dele": 22,
+     "ins": 53,
+     "n": 1503
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN10",
+     "seconds": 108.3,
+     "sub": 21,
+     "dele": 16,
+     "ins": 41,
+     "n": 1131
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN11",
+     "seconds": 89.2,
+     "sub": 53,
+     "dele": 21,
+     "ins": 30,
+     "n": 1049
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN12",
+     "seconds": 95.0,
+     "sub": 44,
+     "dele": 26,
+     "ins": 22,
+     "n": 1077
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN13",
+     "seconds": 8046.8,
+     "sub": 127,
+     "dele": 65,
+     "ins": 107,
+     "n": 2638
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN14",
+     "seconds": 691.1,
+     "sub": 68,
+     "dele": 52,
+     "ins": 103,
+     "n": 1892
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN15",
+     "seconds": 393.4,
+     "sub": 16,
+     "dele": 5,
+     "ins": 15,
+     "n": 1116
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN16",
+     "seconds": 422.0,
+     "sub": 24,
+     "dele": 10,
+     "ins": 9,
+     "n": 712
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN17",
+     "seconds": 2159.5,
+     "sub": 42,
+     "dele": 20,
+     "ins": 20,
+     "n": 1623
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN18",
+     "seconds": 82.5,
+     "sub": 15,
+     "dele": 20,
+     "ins": 54,
+     "n": 846
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN19",
+     "seconds": 159.0,
+     "sub": 32,
+     "dele": 110,
+     "ins": 58,
+     "n": 1809
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN20",
+     "seconds": 84.8,
+     "sub": 17,
+     "dele": 21,
+     "ins": 54,
+     "n": 1307
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN21",
+     "seconds": 168.1,
+     "sub": 25,
+     "dele": 13,
+     "ins": 17,
+     "n": 1665
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN22",
+     "seconds": 167.8,
+     "sub": 54,
+     "dele": 34,
+     "ins": 62,
+     "n": 1962
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN23",
+     "seconds": 25.3,
+     "sub": 7,
+     "dele": 21,
+     "ins": 15,
+     "n": 260
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN24",
+     "seconds": 52.8,
+     "sub": 9,
+     "dele": 2,
+     "ins": 9,
+     "n": 560
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN25",
+     "seconds": 100.8,
+     "sub": 14,
+     "dele": 23,
+     "ins": 14,
+     "n": 1011
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN26",
+     "seconds": 74.7,
+     "sub": 27,
+     "dele": 12,
+     "ins": 57,
+     "n": 751
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN27",
+     "seconds": 81.2,
+     "sub": 10,
+     "dele": 4,
+     "ins": 10,
+     "n": 864
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN28",
+     "seconds": 109.2,
+     "sub": 12,
+     "dele": 6,
+     "ins": 17,
+     "n": 1104
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN29",
+     "seconds": 168.9,
+     "sub": 14,
+     "dele": 13,
+     "ins": 14,
+     "n": 1755
+    }
+   ]
+  },
+  "27": {
+   "trial": 27,
+   "wer": {
+    "fareez": 0.07185224115924618,
+    "primock": 0.12514978032219412,
+    "afrispeech": 0.09055652990144011
+   },
+   "mean_wer": 0.09585285046096015,
+   "counts": {
+    "fareez": {
+     "sub": 1012,
+     "dele": 1401,
+     "ins": 1415,
+     "n": 53276
+    },
+    "primock": {
+     "sub": 1041,
+     "dele": 2148,
+     "ins": 571,
+     "n": 30044
+    },
+    "afrispeech": {
+     "sub": 1222,
+     "dele": 1206,
+     "ins": 1238,
+     "n": 40483
+    }
+   },
+   "n": {
+    "fareez": 40,
+    "primock": 20,
+    "afrispeech": 29
+   },
+   "per_recording": [
+    {
+     "corpus": "fareez",
+     "recording": "RES0151",
+     "seconds": 92.8,
+     "sub": 20,
+     "dele": 22,
+     "ins": 43,
+     "n": 1152
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0204",
+     "seconds": 79.3,
+     "sub": 12,
+     "dele": 28,
+     "ins": 21,
+     "n": 995
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0147",
+     "seconds": 102.4,
+     "sub": 34,
+     "dele": 61,
+     "ins": 29,
+     "n": 1276
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0034",
+     "seconds": 125.1,
+     "sub": 25,
+     "dele": 22,
+     "ins": 31,
+     "n": 1683
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0042",
+     "seconds": 97.5,
+     "sub": 34,
+     "dele": 52,
+     "ins": 26,
+     "n": 1268
+    },
+    {
+     "corpus": "fareez",
+     "recording": "MSK0029",
+     "seconds": 173.9,
+     "sub": 48,
+     "dele": 73,
+     "ins": 46,
+     "n": 2265
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0074",
+     "seconds": 101.2,
+     "sub": 14,
+     "dele": 11,
+     "ins": 76,
+     "n": 1242
+    },
+    {
+     "corpus": "fareez",
+     "recording": "MSK0034",
+     "seconds": 106.8,
+     "sub": 38,
+     "dele": 22,
+     "ins": 42,
+     "n": 1452
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0078",
+     "seconds": 95.6,
+     "sub": 28,
+     "dele": 19,
+     "ins": 61,
+     "n": 1136
+    },
+    {
+     "corpus": "fareez",
+     "recording": "MSK0012",
+     "seconds": 121.8,
+     "sub": 26,
+     "dele": 20,
+     "ins": 27,
+     "n": 1654
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0188",
+     "seconds": 78.5,
+     "sub": 11,
+     "dele": 20,
+     "ins": 16,
+     "n": 952
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0052",
+     "seconds": 71.7,
+     "sub": 21,
+     "dele": 29,
+     "ins": 31,
+     "n": 816
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0118",
+     "seconds": 71.5,
+     "sub": 12,
+     "dele": 32,
+     "ins": 7,
+     "n": 947
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0120",
+     "seconds": 106.5,
+     "sub": 8,
+     "dele": 31,
+     "ins": 12,
+     "n": 1390
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0189",
+     "seconds": 110.6,
+     "sub": 25,
+     "dele": 22,
+     "ins": 36,
+     "n": 1432
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0130",
+     "seconds": 104.2,
+     "sub": 22,
+     "dele": 28,
+     "ins": 23,
+     "n": 1340
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0055",
+     "seconds": 118.3,
+     "sub": 28,
+     "dele": 24,
+     "ins": 86,
+     "n": 1380
+    },
+    {
+     "corpus": "fareez",
+     "recording": "DER0001",
+     "seconds": 106.8,
+     "sub": 45,
+     "dele": 27,
+     "ins": 61,
+     "n": 1556
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0011",
+     "seconds": 122.9,
+     "sub": 21,
+     "dele": 90,
+     "ins": 27,
+     "n": 1654
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0171",
+     "seconds": 102.3,
+     "sub": 29,
+     "dele": 48,
+     "ins": 36,
+     "n": 1366
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0184",
+     "seconds": 63.6,
+     "sub": 12,
+     "dele": 27,
+     "ins": 31,
+     "n": 964
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0030",
+     "seconds": 78.0,
+     "sub": 16,
+     "dele": 27,
+     "ins": 30,
+     "n": 1185
+    },
+    {
+     "corpus": "fareez",
+     "recording": "MSK0021",
+     "seconds": 130.9,
+     "sub": 42,
+     "dele": 63,
+     "ins": 44,
+     "n": 1734
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0043",
+     "seconds": 113.7,
+     "sub": 39,
+     "dele": 75,
+     "ins": 34,
+     "n": 1507
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0067",
+     "seconds": 61.7,
+     "sub": 19,
+     "dele": 14,
+     "ins": 55,
+     "n": 947
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0214",
+     "seconds": 78.0,
+     "sub": 25,
+     "dele": 13,
+     "ins": 20,
+     "n": 1127
+    },
+    {
+     "corpus": "fareez",
+     "recording": "GAS0003",
+     "seconds": 79.8,
+     "sub": 9,
+     "dele": 47,
+     "ins": 24,
+     "n": 1094
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0192",
+     "seconds": 100.6,
+     "sub": 25,
+     "dele": 40,
+     "ins": 21,
+     "n": 1278
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0027",
+     "seconds": 107.7,
+     "sub": 34,
+     "dele": 36,
+     "ins": 35,
+     "n": 1369
+    },
+    {
+     "corpus": "fareez",
+     "recording": "MSK0009",
+     "seconds": 120.4,
+     "sub": 22,
+     "dele": 39,
+     "ins": 59,
+     "n": 1566
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0004",
+     "seconds": 136.2,
+     "sub": 46,
+     "dele": 38,
+     "ins": 47,
+     "n": 1728
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0169",
+     "seconds": 76.4,
+     "sub": 34,
+     "dele": 41,
+     "ins": 37,
+     "n": 946
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0106",
+     "seconds": 97.1,
+     "sub": 21,
+     "dele": 63,
+     "ins": 24,
+     "n": 1299
+    },
+    {
+     "corpus": "fareez",
+     "recording": "MSK0015",
+     "seconds": 116.6,
+     "sub": 39,
+     "dele": 52,
+     "ins": 30,
+     "n": 1624
+    },
+    {
+     "corpus": "fareez",
+     "recording": "CAR0005",
+     "seconds": 94.1,
+     "sub": 13,
+     "dele": 27,
+     "ins": 30,
+     "n": 1289
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0005",
+     "seconds": 123.6,
+     "sub": 32,
+     "dele": 36,
+     "ins": 39,
+     "n": 1650
+    },
+    {
+     "corpus": "fareez",
+     "recording": "MSK0044",
+     "seconds": 84.9,
+     "sub": 27,
+     "dele": 34,
+     "ins": 31,
+     "n": 1185
+    },
+    {
+     "corpus": "fareez",
+     "recording": "GEN0001",
+     "seconds": 74.2,
+     "sub": 18,
+     "dele": 21,
+     "ins": 22,
+     "n": 1135
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0088",
+     "seconds": 105.4,
+     "sub": 21,
+     "dele": 15,
+     "ins": 47,
+     "n": 1363
+    },
+    {
+     "corpus": "fareez",
+     "recording": "RES0016",
+     "seconds": 103.8,
+     "sub": 17,
+     "dele": 12,
+     "ins": 18,
+     "n": 1330
+    },
+    {
+     "corpus": "primock",
+     "recording": "day1_consultation04",
+     "seconds": 106.5,
+     "sub": 63,
+     "dele": 143,
+     "ins": 63,
+     "n": 1651
+    },
+    {
+     "corpus": "primock",
+     "recording": "day1_consultation08",
+     "seconds": 79.9,
+     "sub": 63,
+     "dele": 77,
+     "ins": 15,
+     "n": 1164
+    },
+    {
+     "corpus": "primock",
+     "recording": "day1_consultation10",
+     "seconds": 111.7,
+     "sub": 79,
+     "dele": 229,
+     "ins": 36,
+     "n": 1855
+    },
+    {
+     "corpus": "primock",
+     "recording": "day1_consultation14",
+     "seconds": 121.0,
+     "sub": 78,
+     "dele": 164,
+     "ins": 32,
+     "n": 1945
+    },
+    {
+     "corpus": "primock",
+     "recording": "day1_consultation15",
+     "seconds": 85.9,
+     "sub": 51,
+     "dele": 70,
+     "ins": 39,
+     "n": 1263
+    },
+    {
+     "corpus": "primock",
+     "recording": "day2_consultation02",
+     "seconds": 99.6,
+     "sub": 56,
+     "dele": 135,
+     "ins": 25,
+     "n": 1686
+    },
+    {
+     "corpus": "primock",
+     "recording": "day2_consultation03",
+     "seconds": 91.5,
+     "sub": 69,
+     "dele": 106,
+     "ins": 37,
+     "n": 1415
+    },
+    {
+     "corpus": "primock",
+     "recording": "day2_consultation05",
+     "seconds": 125.4,
+     "sub": 28,
+     "dele": 92,
+     "ins": 18,
+     "n": 1917
+    },
+    {
+     "corpus": "primock",
+     "recording": "day2_consultation10",
+     "seconds": 119.2,
+     "sub": 45,
+     "dele": 91,
+     "ins": 21,
+     "n": 1791
+    },
+    {
+     "corpus": "primock",
+     "recording": "day3_consultation01",
+     "seconds": 77.4,
+     "sub": 40,
+     "dele": 136,
+     "ins": 18,
+     "n": 1278
+    },
+    {
+     "corpus": "primock",
+     "recording": "day3_consultation04",
+     "seconds": 76.2,
+     "sub": 60,
+     "dele": 58,
+     "ins": 27,
+     "n": 1111
+    },
+    {
+     "corpus": "primock",
+     "recording": "day3_consultation07",
+     "seconds": 78.9,
+     "sub": 65,
+     "dele": 62,
+     "ins": 32,
+     "n": 1177
+    },
+    {
+     "corpus": "primock",
+     "recording": "day3_consultation10",
+     "seconds": 85.2,
+     "sub": 38,
+     "dele": 54,
+     "ins": 14,
+     "n": 1356
+    },
+    {
+     "corpus": "primock",
+     "recording": "day4_consultation04",
+     "seconds": 67.0,
+     "sub": 24,
+     "dele": 35,
+     "ins": 14,
+     "n": 987
+    },
+    {
+     "corpus": "primock",
+     "recording": "day4_consultation05",
+     "seconds": 95.7,
+     "sub": 64,
+     "dele": 194,
+     "ins": 31,
+     "n": 1564
+    },
+    {
+     "corpus": "primock",
+     "recording": "day4_consultation06",
+     "seconds": 107.3,
+     "sub": 43,
+     "dele": 87,
+     "ins": 21,
+     "n": 1650
+    },
+    {
+     "corpus": "primock",
+     "recording": "day4_consultation08",
+     "seconds": 109.5,
+     "sub": 52,
+     "dele": 141,
+     "ins": 30,
+     "n": 1691
+    },
+    {
+     "corpus": "primock",
+     "recording": "day5_consultation03",
+     "seconds": 148.8,
+     "sub": 54,
+     "dele": 129,
+     "ins": 26,
+     "n": 2488
+    },
+    {
+     "corpus": "primock",
+     "recording": "day5_consultation04",
+     "seconds": 86.2,
+     "sub": 58,
+     "dele": 107,
+     "ins": 63,
+     "n": 1268
+    },
+    {
+     "corpus": "primock",
+     "recording": "day5_consultation12",
+     "seconds": 57.2,
+     "sub": 11,
+     "dele": 38,
+     "ins": 9,
+     "n": 787
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN01",
+     "seconds": 219.4,
+     "sub": 245,
+     "dele": 274,
+     "ins": 201,
+     "n": 3195
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN02",
+     "seconds": 160.5,
+     "sub": 47,
+     "dele": 40,
+     "ins": 55,
+     "n": 2334
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN03",
+     "seconds": 79.4,
+     "sub": 17,
+     "dele": 4,
+     "ins": 17,
+     "n": 1143
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN04",
+     "seconds": 60.8,
+     "sub": 71,
+     "dele": 82,
+     "ins": 37,
+     "n": 925
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN05",
+     "seconds": 189.3,
+     "sub": 79,
+     "dele": 73,
+     "ins": 62,
+     "n": 2750
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN06",
+     "seconds": 77.1,
+     "sub": 31,
+     "dele": 16,
+     "ins": 28,
+     "n": 1166
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN07",
+     "seconds": 95.6,
+     "sub": 54,
+     "dele": 27,
+     "ins": 65,
+     "n": 1456
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN08",
+     "seconds": 71.7,
+     "sub": 17,
+     "dele": 36,
+     "ins": 51,
+     "n": 879
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN09",
+     "seconds": 102.3,
+     "sub": 47,
+     "dele": 33,
+     "ins": 45,
+     "n": 1503
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN10",
+     "seconds": 84.5,
+     "sub": 23,
+     "dele": 21,
+     "ins": 36,
+     "n": 1131
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN11",
+     "seconds": 71.3,
+     "sub": 49,
+     "dele": 23,
+     "ins": 25,
+     "n": 1049
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN12",
+     "seconds": 68.1,
+     "sub": 47,
+     "dele": 61,
+     "ins": 22,
+     "n": 1077
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN13",
+     "seconds": 163.5,
+     "sub": 120,
+     "dele": 70,
+     "ins": 132,
+     "n": 2638
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN14",
+     "seconds": 129.2,
+     "sub": 66,
+     "dele": 78,
+     "ins": 78,
+     "n": 1892
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN15",
+     "seconds": 90.5,
+     "sub": 15,
+     "dele": 4,
+     "ins": 15,
+     "n": 1116
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN16",
+     "seconds": 54.8,
+     "sub": 23,
+     "dele": 2,
+     "ins": 6,
+     "n": 712
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN17",
+     "seconds": 119.0,
+     "sub": 36,
+     "dele": 24,
+     "ins": 18,
+     "n": 1623
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN18",
+     "seconds": 59.6,
+     "sub": 12,
+     "dele": 30,
+     "ins": 35,
+     "n": 846
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN19",
+     "seconds": 7721.9,
+     "sub": 45,
+     "dele": 95,
+     "ins": 56,
+     "n": 1809
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN20",
+     "seconds": 274.5,
+     "sub": 21,
+     "dele": 44,
+     "ins": 58,
+     "n": 1307
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN21",
+     "seconds": 520.6,
+     "sub": 28,
+     "dele": 14,
+     "ins": 10,
+     "n": 1665
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN22",
+     "seconds": 472.3,
+     "sub": 53,
+     "dele": 53,
+     "ins": 68,
+     "n": 1962
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN23",
+     "seconds": 52.2,
+     "sub": 9,
+     "dele": 19,
+     "ins": 11,
+     "n": 260
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN24",
+     "seconds": 147.3,
+     "sub": 4,
+     "dele": 6,
+     "ins": 6,
+     "n": 560
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN25",
+     "seconds": 678.6,
+     "sub": 17,
+     "dele": 20,
+     "ins": 15,
+     "n": 1011
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN26",
+     "seconds": 710.8,
+     "sub": 15,
+     "dele": 27,
+     "ins": 61,
+     "n": 751
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN27",
+     "seconds": 1135.4,
+     "sub": 10,
+     "dele": 9,
+     "ins": 9,
+     "n": 864
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN28",
+     "seconds": 88.0,
+     "sub": 11,
+     "dele": 7,
+     "ins": 7,
+     "n": 1104
+    },
+    {
+     "corpus": "afrispeech",
+     "recording": "GEN29",
+     "seconds": 140.2,
+     "sub": 10,
+     "dele": 14,
+     "ins": 9,
+     "n": 1755
+    }
+   ]
+  }
+ },
+ "n_complete": 15,
+ "n_trials": 32
+}

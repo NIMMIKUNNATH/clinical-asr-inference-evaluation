@@ -1,0 +1,310 @@
+{
+ "decided": "2026-09-19",
+ "rule": "SELECTION_RULE.md",
+ "basis": "NO candidate admissible; rule step 3 fallback: minimum pooled cpWER in the pool",
+ "seed": 20260915,
+ "bootstrap": 10000,
+ "default_reference": {
+  "wer": 9.86407329528387,
+  "wder": 3.276988090664618,
+  "cpwer": 14.082682487233404,
+  "sawer": 23.610693902072693,
+  "negation": 12.481787275376396,
+  "negation_ref_anchored": 5.148130160271977,
+  "halluc": 20.839591468909582,
+  "rtf": 0.23772393209952378,
+  "ref_words": 53264,
+  "recordings": 40
+ },
+ "margins": {
+  "wder": 0.5,
+  "mc_wer": 0.5,
+  "halluc": 0.0,
+  "negation": 1.0
+ },
+ "one_se_threshold": 12.5413,
+ "tie_set": [
+  "trial_061"
+ ],
+ "chosen": "trial_061",
+ "deviations": [
+  "MC-WER guardrail not applied: Google Healthcare NL concept files are absent.",
+  "All ten candidates failed at least one guardrail; selection fell back to lowest cpWER as specified in SELECTION_RULE.md step 3."
+ ],
+ "candidates": {
+  "trial_070": {
+   "metrics": {
+    "wer": 6.8433,
+    "wder": 4.1661,
+    "cpwer": 12.7309,
+    "sawer": 22.0956,
+    "negation": 7.3822,
+    "negation_ref_anchored": 4.7596,
+    "halluc": 1.8962,
+    "rtf": 0.1474,
+    "ref_words": 53264,
+    "recordings": 40
+   },
+   "seeds": 1,
+   "sources": [
+    "trial_070"
+   ],
+   "admissible": false,
+   "guardrail_failures": [
+    "WDER 4.17 > 3.78"
+   ]
+  },
+  "trial_015": {
+   "metrics": {
+    "wer": 6.9747,
+    "wder": 4.3162,
+    "cpwer": 12.9919,
+    "sawer": 22.3209,
+    "negation": 8.305,
+    "negation_ref_anchored": 5.6824,
+    "halluc": 1.746,
+    "rtf": 0.13,
+    "ref_words": 53264,
+    "recordings": 40
+   },
+   "seeds": 1,
+   "sources": [
+    "trial_015"
+   ],
+   "admissible": false,
+   "guardrail_failures": [
+    "WDER 4.32 > 3.78"
+   ]
+  },
+  "trial_048": {
+   "metrics": {
+    "wer": 6.9747,
+    "wder": 4.1768,
+    "cpwer": 12.9337,
+    "sawer": 25.5538,
+    "negation": 8.1593,
+    "negation_ref_anchored": 5.1481,
+    "halluc": 1.6521,
+    "rtf": 0.1315,
+    "ref_words": 53264,
+    "recordings": 40
+   },
+   "seeds": 3,
+   "sources": [
+    "trial_048",
+    "trial_048_s20260916",
+    "trial_048_s20260917"
+   ],
+   "admissible": false,
+   "guardrail_failures": [
+    "WDER 4.18 > 3.78"
+   ]
+  },
+  "trial_066": {
+   "metrics": {
+    "wer": 6.9822,
+    "wder": 4.0052,
+    "cpwer": 12.6859,
+    "sawer": 22.0693,
+    "negation": 8.4993,
+    "negation_ref_anchored": 5.391,
+    "halluc": 1.5771,
+    "rtf": 0.1406,
+    "ref_words": 53264,
+    "recordings": 40
+   },
+   "seeds": 1,
+   "sources": [
+    "trial_066"
+   ],
+   "admissible": false,
+   "guardrail_failures": [
+    "WDER 4.01 > 3.78"
+   ]
+  },
+  "trial_030": {
+   "metrics": {
+    "wer": 6.9935,
+    "wder": 4.0548,
+    "cpwer": 12.6633,
+    "sawer": 22.0092,
+    "negation": 7.6736,
+    "negation_ref_anchored": 5.0024,
+    "halluc": 2.0089,
+    "rtf": 0.1382,
+    "ref_words": 53264,
+    "recordings": 40
+   },
+   "seeds": 3,
+   "sources": [
+    "trial_030",
+    "trial_030_s20260916",
+    "trial_030_s20260917"
+   ],
+   "admissible": false,
+   "guardrail_failures": [
+    "WDER 4.05 > 3.78"
+   ]
+  },
+  "trial_037": {
+   "metrics": {
+    "wer": 7.0179,
+    "wder": 4.0353,
+    "cpwer": 12.7459,
+    "sawer": 22.0956,
+    "negation": 7.7708,
+    "negation_ref_anchored": 5.1967,
+    "halluc": 1.8774,
+    "rtf": 0.1221,
+    "ref_words": 53264,
+    "recordings": 40
+   },
+   "seeds": 1,
+   "sources": [
+    "trial_037"
+   ],
+   "admissible": false,
+   "guardrail_failures": [
+    "WDER 4.04 > 3.78"
+   ]
+  },
+  "trial_033": {
+   "metrics": {
+    "wer": 7.0216,
+    "wder": 4.1032,
+    "cpwer": 12.9074,
+    "sawer": 22.2815,
+    "negation": 7.6251,
+    "negation_ref_anchored": 4.8082,
+    "halluc": 1.7836,
+    "rtf": 0.1303,
+    "ref_words": 53264,
+    "recordings": 40
+   },
+   "seeds": 3,
+   "sources": [
+    "trial_033",
+    "trial_033_s20260916",
+    "trial_033_s20260917"
+   ],
+   "admissible": false,
+   "guardrail_failures": [
+    "WDER 4.10 > 3.78"
+   ]
+  },
+  "trial_069": {
+   "metrics": {
+    "wer": 7.0404,
+    "wder": 4.017,
+    "cpwer": 12.7722,
+    "sawer": 22.1219,
+    "negation": 8.3536,
+    "negation_ref_anchored": 5.4881,
+    "halluc": 1.8587,
+    "rtf": 0.1389,
+    "ref_words": 53264,
+    "recordings": 40
+   },
+   "seeds": 1,
+   "sources": [
+    "trial_069"
+   ],
+   "admissible": false,
+   "guardrail_failures": [
+    "WDER 4.02 > 3.78"
+   ]
+  },
+  "trial_059": {
+   "metrics": {
+    "wer": 7.0498,
+    "wder": 4.0264,
+    "cpwer": 12.7628,
+    "sawer": 25.3154,
+    "negation": 8.7421,
+    "negation_ref_anchored": 5.9252,
+    "halluc": 1.8023,
+    "rtf": 0.1403,
+    "ref_words": 53264,
+    "recordings": 40
+   },
+   "seeds": 1,
+   "sources": [
+    "trial_059"
+   ],
+   "admissible": false,
+   "guardrail_failures": [
+    "WDER 4.03 > 3.78"
+   ]
+  },
+  "trial_061": {
+   "metrics": {
+    "wer": 7.0648,
+    "wder": 3.8772,
+    "cpwer": 12.5413,
+    "sawer": 21.8966,
+    "negation": 8.8392,
+    "negation_ref_anchored": 5.9738,
+    "halluc": 1.7085,
+    "rtf": 0.1393,
+    "ref_words": 53264,
+    "recordings": 40
+   },
+   "seeds": 3,
+   "sources": [
+    "trial_061",
+    "trial_061_s20260916",
+    "trial_061_s20260917"
+   ],
+   "admissible": false,
+   "guardrail_failures": [
+    "WDER 3.88 > 3.78"
+   ]
+  }
+ },
+ "trial": 61,
+ "transcribe_kwargs": {
+  "vad_filter": true,
+  "beam_size": 6,
+  "patience": 1.2273226337017193,
+  "length_penalty": 1.0605764346533675,
+  "repetition_penalty": 1.0605646016935004,
+  "no_repeat_ngram_size": 0,
+  "temperature": [
+   0.0,
+   0.2,
+   0.4
+  ],
+  "best_of": 5,
+  "compression_ratio_threshold": 2.3825815701591733,
+  "log_prob_threshold": -1.4921272503476033,
+  "no_speech_threshold": 0.30701277718632836,
+  "condition_on_previous_text": false,
+  "initial_prompt": null,
+  "vad_parameters": {
+   "threshold": 0.2772207662198985,
+   "min_speech_duration_ms": 231,
+   "min_silence_duration_ms": 471,
+   "speech_pad_ms": 404
+  }
+ },
+ "params": {
+  "beam_size": 6,
+  "patience": 1.2273226337017193,
+  "length_penalty": 1.0605764346533675,
+  "repetition_penalty": 1.0605646016935004,
+  "no_repeat_ngram_size": 0,
+  "temperature_fallback": "short",
+  "best_of": 5,
+  "compression_ratio_threshold": 2.3825815701591733,
+  "log_prob_threshold": -1.4921272503476033,
+  "no_speech_threshold": 0.30701277718632836,
+  "condition_on_previous_text": false,
+  "initial_prompt": "none",
+  "hallucination_silence": "off",
+  "vad_threshold": 0.2772207662198985,
+  "vad_min_speech_ms": 231,
+  "vad_min_silence_ms": 471,
+  "vad_speech_pad_ms": 404
+ },
+ "dev_wer_from_search": 0.07085742172835799
+}

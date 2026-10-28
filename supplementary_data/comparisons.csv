@@ -1,0 +1,253 @@
+corpus,kind,reference,comparator,outcome,n,reference_rate,comparator_rate,mean_paired_difference,ci95_lower,ci95_upper,recordings_better,recordings_worse,recordings_tied,rank_biserial,p_raw
+Fareez,vs defaults,defaults,tuned,WER,231,9.75369,6.952634,-2.730852,-3.124574,-2.365903,208,21,2,-0.9451,0.0
+Fareez,vs defaults,defaults,tuned,WDER,231,3.432748,4.053295,0.61502,0.431754,0.791455,65,166,0,0.492,0.0
+Fareez,vs defaults,defaults,tuned,cpWER,231,14.513525,12.676986,-1.79553,-2.283875,-1.34533,152,78,1,-0.4947,0.0
+Fareez,vs defaults,defaults,tuned,insertions,231,5.273307,2.76543,-2.444316,-2.767517,-2.140851,219,11,1,-0.9815,0.0
+Fareez,vs defaults,defaults,tuned,deletions,231,2.287911,2.291179,-0.005455,-0.146628,0.134605,102,123,6,0.0385,0.616184
+Fareez,vs defaults,defaults,tuned,hallucinated words / 1k,231,21.999895,1.173371,-20.224628,-23.510243,-17.196749,193,2,36,-0.9955,0.0
+Fareez,vs defaults,defaults,tuned,negation (incl. insertions),231,12.734596,8.132659,-4.579501,-5.518887,-3.704304,157,40,34,-0.7684,0.0
+Fareez,vs defaults,defaults,local20_fareez,WER,231,9.75369,7.150048,-2.526209,-2.936214,-2.146485,196,30,5,-0.8862,0.0
+Fareez,vs defaults,defaults,local20_fareez,WDER,231,3.432748,4.089004,0.681363,0.496549,0.858617,61,170,0,0.5436,0.0
+Fareez,vs defaults,defaults,local20_fareez,cpWER,231,14.513525,13.086849,-1.333891,-1.833304,-0.871564,132,96,3,-0.2935,0.000122
+Fareez,vs defaults,defaults,local20_fareez,insertions,231,5.273307,2.427473,-2.785486,-3.110243,-2.479638,225,5,1,-0.9945,0.0
+Fareez,vs defaults,defaults,local20_fareez,deletions,231,2.287911,2.904993,0.616323,0.460191,0.775991,60,164,7,0.5876,0.0
+Fareez,vs defaults,defaults,local20_fareez,hallucinated words / 1k,231,21.999895,1.019754,-20.384595,-23.621596,-17.387557,194,0,37,-1.0,0.0
+Fareez,vs defaults,defaults,local20_fareez,negation (incl. insertions),231,12.734596,8.209787,-4.472246,-5.47596,-3.52281,151,45,35,-0.7142,0.0
+Fareez,vs defaults,defaults,joint,WER,231,9.75369,7.037613,-2.641387,-3.055747,-2.26096,199,30,2,-0.911,0.0
+Fareez,vs defaults,defaults,joint,WDER,231,3.432748,4.513071,1.103608,0.923981,1.281108,47,184,0,0.7488,0.0
+Fareez,vs defaults,defaults,joint,cpWER,231,14.513525,13.388526,-1.031134,-1.536771,-0.560608,116,112,3,-0.1684,0.027496
+Fareez,vs defaults,defaults,joint,insertions,231,5.273307,2.517355,-2.704816,-3.02807,-2.402503,223,6,2,-0.9977,0.0
+Fareez,vs defaults,defaults,joint,deletions,231,2.287911,2.647113,0.360868,0.208732,0.516178,77,147,7,0.3974,0.0
+Fareez,vs defaults,defaults,joint,hallucinated words / 1k,231,21.999895,1.07205,-20.321062,-23.562364,-17.314776,194,3,34,-0.9932,0.0
+Fareez,vs defaults,defaults,joint,negation (incl. insertions),231,12.734596,7.909847,-4.650879,-5.585381,-3.739503,154,43,34,-0.7773,0.0
+Fareez,vs defaults,defaults,primock_tuned,WER,231,9.75369,7.037613,-2.641387,-3.055747,-2.26096,199,30,2,-0.911,0.0
+Fareez,vs defaults,defaults,primock_tuned,WDER,231,3.432748,4.513071,1.103608,0.923981,1.281108,47,184,0,0.7488,0.0
+Fareez,vs defaults,defaults,primock_tuned,cpWER,231,14.513525,13.388526,-1.031134,-1.536771,-0.560608,116,112,3,-0.1684,0.027496
+Fareez,vs defaults,defaults,primock_tuned,insertions,231,5.273307,2.517355,-2.704816,-3.02807,-2.402503,223,6,2,-0.9977,0.0
+Fareez,vs defaults,defaults,primock_tuned,deletions,231,2.287911,2.647113,0.360868,0.208732,0.516178,77,147,7,0.3974,0.0
+Fareez,vs defaults,defaults,primock_tuned,hallucinated words / 1k,231,21.999895,1.07205,-20.321062,-23.562364,-17.314776,194,3,34,-0.9932,0.0
+Fareez,vs defaults,defaults,primock_tuned,negation (incl. insertions),231,12.734596,7.909847,-4.650879,-5.585381,-3.739503,154,43,34,-0.7773,0.0
+Fareez,vs defaults,defaults,local20_afrispeech,WER,231,9.75369,6.978781,-2.695628,-3.101205,-2.327375,210,19,2,-0.9407,0.0
+Fareez,vs defaults,defaults,local20_afrispeech,WDER,231,3.432748,4.752954,1.360833,1.170655,1.545342,36,195,0,0.8112,0.0
+Fareez,vs defaults,defaults,local20_afrispeech,cpWER,231,14.513525,13.526128,-0.877868,-1.384259,-0.408808,115,113,3,-0.1194,0.117926
+Fareez,vs defaults,defaults,local20_afrispeech,insertions,231,5.273307,2.588608,-2.622801,-2.950231,-2.31605,220,8,3,-0.9917,0.0
+Fareez,vs defaults,defaults,local20_afrispeech,deletions,231,2.287911,2.454274,0.168699,0.025501,0.311341,82,141,8,0.2705,0.000461
+Fareez,vs defaults,defaults,local20_afrispeech,hallucinated words / 1k,231,21.999895,1.209324,-20.173289,-23.446898,-17.142222,191,3,37,-0.9982,0.0
+Fareez,vs defaults,defaults,local20_afrispeech,negation (incl. insertions),231,12.734596,8.012683,-4.605482,-5.558178,-3.684681,157,36,38,-0.7676,0.0
+Fareez,vs defaults,defaults,oldref_v2_fp16,WER,231,9.75369,6.998719,-2.680826,-3.139139,-2.251684,188,39,4,-0.8241,0.0
+Fareez,vs defaults,defaults,oldref_v2_fp16,WDER,231,3.432748,1.961991,-1.47174,-1.649519,-1.298921,207,24,0,-0.9505,0.0
+Fareez,vs defaults,defaults,oldref_v2_fp16,cpWER,231,14.513525,10.24461,-4.219052,-4.777991,-3.688667,212,19,0,-0.9251,0.0
+Fareez,vs defaults,defaults,oldref_v2_fp16,insertions,231,5.273307,1.949627,-3.251164,-3.595129,-2.924672,227,3,1,-0.9812,0.0
+Fareez,vs defaults,defaults,oldref_v2_fp16,deletions,231,2.287911,3.311587,1.00846,0.797219,1.22776,55,171,5,0.6377,0.0
+Fareez,vs defaults,defaults,oldref_v2_fp16,hallucinated words / 1k,231,21.999895,1.601537,-19.72651,-23.121711,-16.530569,190,9,32,-0.9653,0.0
+Fareez,vs defaults,defaults,oldref_v2_fp16,negation (incl. insertions),231,12.734596,8.10695,-4.467912,-5.474614,-3.528974,153,45,33,-0.6973,0.0
+Fareez,vs defaults,defaults,v3_oldref,WER,231,9.75369,9.607591,-0.099074,-0.581359,0.374144,110,118,3,-0.0024,0.975198
+Fareez,vs defaults,defaults,v3_oldref,WDER,231,3.432748,3.280161,-0.115112,-0.289988,0.055522,120,107,4,-0.0976,0.202296
+Fareez,vs defaults,defaults,v3_oldref,cpWER,231,14.513525,14.214789,-0.22578,-0.785331,0.325659,114,111,6,-0.0378,0.623039
+Fareez,vs defaults,defaults,v3_oldref,insertions,231,5.273307,5.355999,0.137165,-0.25579,0.526243,105,121,5,0.1132,0.140199
+Fareez,vs defaults,defaults,v3_oldref,deletions,231,2.287911,2.124815,-0.197156,-0.356161,-0.038009,137,80,14,-0.2929,0.000184
+Fareez,vs defaults,defaults,v3_oldref,hallucinated words / 1k,231,21.999895,20.967067,-0.431873,-4.201082,3.3737,116,99,16,-0.0176,0.823237
+Fareez,vs defaults,defaults,v3_oldref,negation (incl. insertions),231,12.734596,12.794584,0.438991,-0.879546,1.787526,97,101,33,0.023,0.778575
+Fareez,vs defaults,defaults,trial32_v2_fp16,WER,230,9.77498,6.884071,-2.836458,-3.274778,-2.417254,200,29,1,-0.8796,0.0
+Fareez,vs defaults,defaults,trial32_v2_fp16,WDER,230,3.419186,1.881025,-1.55228,-1.730366,-1.38109,221,9,0,-0.9782,0.0
+Fareez,vs defaults,defaults,trial32_v2_fp16,cpWER,230,14.507471,10.018245,-4.475457,-5.001348,-3.954881,214,15,1,-0.9619,0.0
+Fareez,vs defaults,defaults,trial32_v2_fp16,insertions,230,5.284439,1.954996,-3.256493,-3.598791,-2.936008,226,3,1,-0.9986,0.0
+Fareez,vs defaults,defaults,trial32_v2_fp16,deletions,230,2.293923,3.216029,0.888218,0.688386,1.089651,56,169,5,0.6178,0.0
+Fareez,vs defaults,defaults,trial32_v2_fp16,hallucinated words / 1k,230,22.071369,1.193313,-20.226065,-23.481062,-17.126556,190,3,37,-0.9983,0.0
+Fareez,vs defaults,defaults,trial32_v2_fp16,negation (incl. insertions),230,12.803932,8.156579,-4.66332,-5.681904,-3.702963,161,38,31,-0.7192,0.0
+Fareez,vs defaults,defaults,v3_trial32,WER,230,9.776525,23.126872,12.817376,8.64596,17.513882,86,141,3,0.3565,3e-06
+Fareez,vs defaults,defaults,v3_trial32,WDER,230,3.44554,7.898992,4.391387,2.910286,6.043643,89,141,0,0.3861,0.0
+Fareez,vs defaults,defaults,v3_trial32,cpWER,230,14.552131,28.841177,13.753236,9.356996,18.73307,99,130,1,0.3188,2.9e-05
+Fareez,vs defaults,defaults,v3_trial32,insertions,230,5.294222,12.577513,6.787788,4.118891,10.028769,100,129,1,0.2402,0.001627
+Fareez,vs defaults,defaults,v3_trial32,deletions,230,2.287955,3.082138,0.864837,0.144811,1.751539,129,93,8,-0.2058,0.007838
+Fareez,vs defaults,defaults,v3_trial32,hallucinated words / 1k,230,22.107704,91.744837,64.847133,38.936065,96.104851,104,116,10,0.1939,0.012662
+Fareez,vs defaults,defaults,v3_trial32,negation (incl. insertions),230,12.755892,31.248925,16.73241,8.306122,27.006408,86,112,32,0.2364,0.003916
+Fareez,cost of globality (joint minus local),local20_fareez,joint,WER,231,7.150048,7.037613,-0.115178,-0.210465,-0.018207,126,95,10,-0.1929,0.012909
+Fareez,cost of globality (joint minus local),local20_fareez,joint,WDER,231,4.089004,4.513071,0.422245,0.332781,0.512635,58,171,2,0.6281,0.0
+Fareez,cost of globality (joint minus local),local20_fareez,joint,cpWER,231,13.086849,13.388526,0.302757,0.175045,0.432076,84,144,3,0.3273,1.8e-05
+Fareez,cost of globality (joint minus local),local20_fareez,joint,insertions,231,2.427473,2.517355,0.08067,0.020289,0.140493,92,124,15,0.1802,0.0217
+Fareez,cost of globality (joint minus local),local20_fareez,joint,deletions,231,2.904993,2.647113,-0.255455,-0.348337,-0.164062,147,73,11,-0.4077,0.0
+Fareez,cost of globality (joint minus local),local20_fareez,joint,hallucinated words / 1k,231,1.019754,1.07205,0.063533,-0.103505,0.233309,9,13,209,0.1858,0.445498
+Fareez,cost of globality (joint minus local),local20_fareez,joint,negation (incl. insertions),231,8.209787,7.909847,-0.178632,-0.617103,0.266535,86,73,72,-0.0965,0.291014
+Fareez,"checkpoint, reference vector (v3 minus v2)",oldref_v2_fp16,v3_oldref,WER,231,6.998719,9.607591,2.581751,2.231665,2.952303,32,196,3,0.8591,0.0
+Fareez,"checkpoint, reference vector (v3 minus v2)",oldref_v2_fp16,v3_oldref,WDER,231,1.961991,3.280161,1.356628,1.186279,1.534348,14,217,0,0.9613,0.0
+Fareez,"checkpoint, reference vector (v3 minus v2)",oldref_v2_fp16,v3_oldref,cpWER,231,10.24461,14.214789,3.993272,3.582282,4.430859,20,208,3,0.9477,0.0
+Fareez,"checkpoint, reference vector (v3 minus v2)",oldref_v2_fp16,v3_oldref,insertions,231,1.949627,5.355999,3.388329,3.070839,3.719258,3,227,1,0.9825,0.0
+Fareez,"checkpoint, reference vector (v3 minus v2)",oldref_v2_fp16,v3_oldref,deletions,231,3.311587,2.124815,-1.205616,-1.422835,-0.987314,183,43,5,-0.7461,0.0
+Fareez,"checkpoint, reference vector (v3 minus v2)",oldref_v2_fp16,v3_oldref,hallucinated words / 1k,231,1.601537,20.967067,19.294637,16.369833,22.465293,5,193,33,0.9694,0.0
+Fareez,"checkpoint, reference vector (v3 minus v2)",oldref_v2_fp16,v3_oldref,negation (incl. insertions),231,8.10695,12.794584,4.906904,3.84635,6.031912,42,156,33,0.7274,0.0
+Fareez,"checkpoint, trial32 vector (v3 minus v2)",trial32_v2_fp16,v3_trial32,WER,229,6.895538,23.204924,15.703979,11.598292,20.437354,22,206,1,0.9278,0.0
+Fareez,"checkpoint, trial32 vector (v3 minus v2)",trial32_v2_fp16,v3_trial32,WDER,229,1.887333,7.918129,5.973769,4.468259,7.639485,13,216,0,0.9781,0.0
+Fareez,"checkpoint, trial32 vector (v3 minus v2)",trial32_v2_fp16,v3_trial32,cpWER,229,10.039544,28.910847,18.298494,13.907636,23.329895,9,220,0,0.9671,0.0
+Fareez,"checkpoint, trial32 vector (v3 minus v2)",trial32_v2_fp16,v3_trial32,insertions,229,1.960668,12.623925,10.081809,7.402762,13.282695,8,221,0,0.9772,0.0
+Fareez,"checkpoint, trial32 vector (v3 minus v2)",trial32_v2_fp16,v3_trial32,deletions,229,3.22164,3.079256,-0.034527,-0.757605,0.84057,179,46,4,-0.6046,0.0
+Fareez,"checkpoint, trial32 vector (v3 minus v2)",trial32_v2_fp16,v3_trial32,hallucinated words / 1k,229,1.199195,92.212499,85.437258,59.747787,116.172764,4,195,30,0.9985,0.0
+Fareez,"checkpoint, trial32 vector (v3 minus v2)",trial32_v2_fp16,v3_trial32,negation (incl. insertions),229,8.160969,31.406318,21.47071,13.228073,31.555918,39,162,28,0.7905,0.0
+PriMock57,vs defaults,defaults,tuned,WER,37,13.577473,12.263758,-1.53884,-2.524804,-0.661683,24,13,0,-0.5192,0.005074
+PriMock57,vs defaults,defaults,tuned,WDER,37,5.987377,5.777059,-0.234234,-0.609063,0.10326,19,18,0,-0.1494,0.437222
+PriMock57,vs defaults,defaults,tuned,cpWER,37,21.227825,19.645931,-1.782863,-2.966199,-0.709295,23,14,0,-0.4708,0.011587
+PriMock57,vs defaults,defaults,tuned,insertions,37,3.852357,2.016779,-1.945521,-2.623319,-1.370637,32,3,2,-0.9714,1e-06
+PriMock57,vs defaults,defaults,tuned,deletions,37,6.110135,6.970845,0.785802,0.326469,1.250294,13,24,0,0.4936,0.007943
+PriMock57,vs defaults,defaults,tuned,hallucinated words / 1k,37,16.253828,1.485857,-15.971049,-22.853933,-10.314767,29,0,8,-1.0,3e-06
+PriMock57,vs defaults,defaults,tuned,negation (incl. insertions),37,18.323191,15.686275,-3.94381,-7.233941,-0.927505,21,9,7,-0.471,0.0243
+PriMock57,vs defaults,defaults,local20_fareez,WER,37,13.577473,12.120608,-1.804595,-2.870002,-0.81905,27,10,0,-0.6102,0.000827
+PriMock57,vs defaults,defaults,local20_fareez,WDER,37,5.987377,6.027595,0.062964,-0.381,0.482406,21,16,0,0.0782,0.687187
+PriMock57,vs defaults,defaults,local20_fareez,cpWER,37,21.227825,19.702104,-1.777565,-2.972404,-0.704307,25,12,0,-0.5021,0.00686
+PriMock57,vs defaults,defaults,local20_fareez,insertions,37,3.852357,1.956983,-1.970081,-2.642923,-1.390159,32,5,0,-0.9346,0.0
+PriMock57,vs defaults,defaults,local20_fareez,deletions,37,6.110135,7.019769,0.682731,0.156492,1.245934,14,23,0,0.431,0.021463
+PriMock57,vs defaults,defaults,local20_fareez,hallucinated words / 1k,37,16.253828,1.612699,-15.726102,-22.970005,-9.928099,28,0,9,-1.0,4e-06
+PriMock57,vs defaults,defaults,local20_fareez,negation (incl. insertions),37,18.323191,16.091954,-3.163434,-6.668371,-0.225764,16,13,8,-0.3701,0.081733
+PriMock57,vs defaults,defaults,joint,WER,37,13.577473,11.747332,-2.078886,-3.158812,-1.113508,28,9,0,-0.6643,0.000234
+PriMock57,vs defaults,defaults,joint,WDER,37,5.987377,6.237034,0.27439,-0.163514,0.681471,8,29,0,0.4339,0.020576
+PriMock57,vs defaults,defaults,joint,cpWER,37,21.227825,19.593382,-1.790423,-3.033945,-0.698755,23,14,0,-0.4651,0.012697
+PriMock57,vs defaults,defaults,joint,insertions,37,3.852357,2.038524,-1.904568,-2.632089,-1.29703,31,5,1,-0.9399,1e-06
+PriMock57,vs defaults,defaults,joint,deletions,37,6.110135,6.534148,0.307711,-0.181458,0.78528,16,21,0,0.2432,0.202253
+PriMock57,vs defaults,defaults,joint,hallucinated words / 1k,37,16.253828,1.340896,-16.043836,-23.285313,-10.230996,28,0,9,-1.0,4e-06
+PriMock57,vs defaults,defaults,joint,negation (incl. insertions),37,18.323191,15.551048,-3.599488,-7.189781,-0.561613,20,12,5,-0.3314,0.101799
+PriMock57,vs defaults,defaults,primock_tuned,WER,37,13.577473,11.747332,-2.078886,-3.158812,-1.113508,28,9,0,-0.6643,0.000234
+PriMock57,vs defaults,defaults,primock_tuned,WDER,37,5.987377,6.237034,0.27439,-0.163514,0.681471,8,29,0,0.4339,0.020576
+PriMock57,vs defaults,defaults,primock_tuned,cpWER,37,21.227825,19.593382,-1.790423,-3.033945,-0.698755,23,14,0,-0.4651,0.012697
+PriMock57,vs defaults,defaults,primock_tuned,insertions,37,3.852357,2.038524,-1.904568,-2.632089,-1.29703,31,5,1,-0.9399,1e-06
+PriMock57,vs defaults,defaults,primock_tuned,deletions,37,6.110135,6.534148,0.307711,-0.181458,0.78528,16,21,0,0.2432,0.202253
+PriMock57,vs defaults,defaults,primock_tuned,hallucinated words / 1k,37,16.253828,1.340896,-16.043836,-23.285313,-10.230996,28,0,9,-1.0,4e-06
+PriMock57,vs defaults,defaults,primock_tuned,negation (incl. insertions),37,18.323191,15.551048,-3.599488,-7.189781,-0.561613,20,12,5,-0.3314,0.101799
+PriMock57,vs defaults,defaults,local20_afrispeech,WER,37,13.577473,11.600558,-2.136874,-3.137293,-1.221244,27,10,0,-0.7098,7.1e-05
+PriMock57,vs defaults,defaults,local20_afrispeech,WDER,37,5.987377,6.427327,0.498303,0.036473,0.947238,11,26,0,0.4879,0.008745
+PriMock57,vs defaults,defaults,local20_afrispeech,cpWER,37,21.227825,19.607879,-1.68299,-2.913103,-0.571669,23,14,0,-0.4282,0.022383
+PriMock57,vs defaults,defaults,local20_afrispeech,insertions,37,3.852357,1.915306,-2.029469,-2.774987,-1.409466,35,2,0,-0.9545,0.0
+PriMock57,vs defaults,defaults,local20_afrispeech,deletions,37,6.110135,6.376502,0.234082,-0.14361,0.592096,16,20,1,0.2492,0.192241
+PriMock57,vs defaults,defaults,local20_afrispeech,hallucinated words / 1k,37,16.253828,1.286535,-16.00136,-23.200138,-10.268368,29,0,8,-1.0,3e-06
+PriMock57,vs defaults,defaults,local20_afrispeech,negation (incl. insertions),37,18.323191,14.266396,-4.867118,-8.328174,-1.8138,22,9,6,-0.5847,0.004489
+PriMock57,vs defaults,defaults,oldref_v2_fp16,WER,37,13.577473,12.236577,-1.60118,-2.7855,-0.534111,23,14,0,-0.4481,0.016591
+PriMock57,vs defaults,defaults,oldref_v2_fp16,WDER,37,5.987377,4.376801,-1.734594,-2.236867,-1.262646,34,3,0,-0.963,0.0
+PriMock57,vs defaults,defaults,oldref_v2_fp16,cpWER,37,21.227825,18.237991,-3.360083,-4.835346,-2.034264,31,5,1,-0.8799,4e-06
+PriMock57,vs defaults,defaults,oldref_v2_fp16,insertions,37,3.852357,1.860946,-2.090186,-2.769358,-1.510119,34,2,1,-0.979,0.0
+PriMock57,vs defaults,defaults,oldref_v2_fp16,deletions,37,6.110135,7.548879,1.321131,0.8189,1.827012,8,28,1,0.7658,6.2e-05
+PriMock57,vs defaults,defaults,oldref_v2_fp16,hallucinated words / 1k,37,16.253828,1.75766,-15.451106,-22.316717,-9.799043,28,0,9,-1.0,4e-06
+PriMock57,vs defaults,defaults,oldref_v2_fp16,negation (incl. insertions),37,18.323191,13.995943,-4.881197,-8.556183,-1.863429,23,8,6,-0.629,0.002235
+PriMock57,vs defaults,defaults,v3_oldref,WER,37,13.577473,12.475764,-1.324254,-2.343611,-0.421573,23,13,1,-0.4655,0.014886
+PriMock57,vs defaults,defaults,v3_oldref,WDER,37,5.987377,5.611784,-0.38117,-0.708864,-0.078913,21,15,1,-0.3754,0.049551
+PriMock57,vs defaults,defaults,v3_oldref,cpWER,37,21.227825,19.774585,-1.693082,-2.807938,-0.689885,26,10,1,-0.5465,0.004245
+PriMock57,vs defaults,defaults,v3_oldref,insertions,37,3.852357,3.489952,-0.566409,-1.326739,0.104769,21,15,1,-0.2462,0.197653
+PriMock57,vs defaults,defaults,v3_oldref,deletions,37,6.110135,5.624513,-0.445463,-0.712018,-0.182815,24,10,3,-0.5429,0.005761
+PriMock57,vs defaults,defaults,v3_oldref,hallucinated words / 1k,37,16.253828,11.143929,-6.946576,-14.396216,-0.743529,21,12,4,-0.3797,0.05705
+PriMock57,vs defaults,defaults,v3_oldref,negation (incl. insertions),37,18.323191,14.672076,-4.202376,-8.326658,-0.559667,23,8,6,-0.6008,0.003502
+PriMock57,vs defaults,defaults,trial32_v2_fp16,WER,37,13.577473,12.030007,-1.800442,-3.054838,-0.672506,26,11,0,-0.5363,0.003711
+PriMock57,vs defaults,defaults,trial32_v2_fp16,WDER,37,5.987377,4.355987,-1.731536,-2.233621,-1.259694,35,2,0,-0.9573,0.0
+PriMock57,vs defaults,defaults,trial32_v2_fp16,cpWER,37,21.227825,18.045917,-3.518362,-5.038241,-2.163869,31,5,1,-0.8498,9e-06
+PriMock57,vs defaults,defaults,trial32_v2_fp16,insertions,37,3.852357,1.859133,-2.109075,-2.78325,-1.532224,34,2,1,-0.982,0.0
+PriMock57,vs defaults,defaults,trial32_v2_fp16,deletions,37,6.110135,7.316941,1.110073,0.586767,1.651446,8,27,2,0.6889,0.000379
+PriMock57,vs defaults,defaults,trial32_v2_fp16,hallucinated words / 1k,37,16.253828,1.73954,-15.737821,-22.860802,-10.027904,30,0,7,-1.0,2e-06
+PriMock57,vs defaults,defaults,trial32_v2_fp16,negation (incl. insertions),37,18.323191,14.672076,-4.509995,-8.659386,-0.957919,22,12,3,-0.437,0.026233
+PriMock57,vs defaults,defaults,v3_trial32,WER,37,13.577473,17.866527,4.813324,-0.367441,10.934747,22,14,1,-0.1261,0.509354
+PriMock57,vs defaults,defaults,v3_trial32,WDER,37,5.987377,8.625847,2.866651,0.345495,5.963008,17,20,0,0.0896,0.643775
+PriMock57,vs defaults,defaults,v3_trial32,cpWER,37,21.227825,26.814286,6.169815,-0.040934,13.579561,22,14,1,-0.1111,0.561044
+PriMock57,vs defaults,defaults,v3_trial32,insertions,37,3.852357,4.669578,0.820437,-0.889898,2.88168,18,19,0,-0.0782,0.687187
+PriMock57,vs defaults,defaults,v3_trial32,deletions,37,6.110135,6.086578,0.396685,-1.094473,2.949805,25,12,0,-0.5078,0.006212
+PriMock57,vs defaults,defaults,v3_trial32,hallucinated words / 1k,37,16.253828,23.936797,7.474076,-8.451234,26.919597,17,15,5,-0.053,0.793487
+PriMock57,vs defaults,defaults,v3_trial32,negation (incl. insertions),37,18.323191,29.817444,14.104176,-3.560222,40.038109,20,13,4,-0.0642,0.747735
+PriMock57,cost of globality (joint minus local),primock_tuned,joint,WER,37,11.747332,11.747332,0.0,0.0,0.0,0,0,37,0.0,
+PriMock57,cost of globality (joint minus local),primock_tuned,joint,WDER,37,6.237034,6.237034,0.0,0.0,0.0,0,0,37,0.0,
+PriMock57,cost of globality (joint minus local),primock_tuned,joint,cpWER,37,19.593382,19.593382,0.0,0.0,0.0,0,0,37,0.0,
+PriMock57,cost of globality (joint minus local),primock_tuned,joint,insertions,37,2.038524,2.038524,0.0,0.0,0.0,0,0,37,0.0,
+PriMock57,cost of globality (joint minus local),primock_tuned,joint,deletions,37,6.534148,6.534148,0.0,0.0,0.0,0,0,37,0.0,
+PriMock57,cost of globality (joint minus local),primock_tuned,joint,hallucinated words / 1k,37,1.340896,1.340896,0.0,0.0,0.0,0,0,37,0.0,
+PriMock57,cost of globality (joint minus local),primock_tuned,joint,negation (incl. insertions),37,15.551048,15.551048,0.0,0.0,0.0,0,0,37,0.0,
+PriMock57,"checkpoint, reference vector (v3 minus v2)",oldref_v2_fp16,v3_oldref,WER,37,12.236577,12.475764,0.276926,-0.244017,0.827888,16,20,1,0.1111,0.561044
+PriMock57,"checkpoint, reference vector (v3 minus v2)",oldref_v2_fp16,v3_oldref,WDER,37,4.376801,5.611784,1.353424,1.034934,1.723277,1,36,0,0.9972,0.0
+PriMock57,"checkpoint, reference vector (v3 minus v2)",oldref_v2_fp16,v3_oldref,cpWER,37,18.237991,19.774585,1.667,1.002029,2.381327,6,30,1,0.7778,4.7e-05
+PriMock57,"checkpoint, reference vector (v3 minus v2)",oldref_v2_fp16,v3_oldref,insertions,37,1.860946,3.489952,1.523776,1.130405,1.925494,4,33,0,0.9374,0.0
+PriMock57,"checkpoint, reference vector (v3 minus v2)",oldref_v2_fp16,v3_oldref,deletions,37,7.548879,5.624513,-1.766593,-2.259583,-1.28279,32,4,1,-0.9099,2e-06
+PriMock57,"checkpoint, reference vector (v3 minus v2)",oldref_v2_fp16,v3_oldref,hallucinated words / 1k,37,1.75766,11.143929,8.50453,5.700682,11.385355,4,26,7,0.9355,8e-06
+PriMock57,"checkpoint, reference vector (v3 minus v2)",oldref_v2_fp16,v3_oldref,negation (incl. insertions),37,13.995943,14.672076,0.678821,-1.371755,2.907128,13,13,11,0.0541,0.80933
+PriMock57,"checkpoint, trial32 vector (v3 minus v2)",trial32_v2_fp16,v3_trial32,WER,37,12.030007,17.866527,6.613767,1.705907,12.50934,17,20,0,0.1892,0.323383
+PriMock57,"checkpoint, trial32 vector (v3 minus v2)",trial32_v2_fp16,v3_trial32,WDER,37,4.355987,8.625847,4.598187,2.233441,7.52262,0,37,0,1.0,0.0
+PriMock57,"checkpoint, trial32 vector (v3 minus v2)",trial32_v2_fp16,v3_trial32,cpWER,37,18.045917,26.814286,9.688177,3.894675,16.684631,5,32,0,0.7809,8e-06
+PriMock57,"checkpoint, trial32 vector (v3 minus v2)",trial32_v2_fp16,v3_trial32,insertions,37,1.859133,4.669578,2.929513,1.377688,4.886669,5,32,0,0.9203,0.0
+PriMock57,"checkpoint, trial32 vector (v3 minus v2)",trial32_v2_fp16,v3_trial32,deletions,37,7.316941,6.086578,-0.713389,-2.269689,1.856084,31,4,2,-0.8222,2.2e-05
+PriMock57,"checkpoint, trial32 vector (v3 minus v2)",trial32_v2_fp16,v3_trial32,hallucinated words / 1k,37,1.73954,23.936797,23.211897,9.236628,41.05669,1,21,15,0.9921,4.6e-05
+PriMock57,"checkpoint, trial32 vector (v3 minus v2)",trial32_v2_fp16,v3_trial32,negation (incl. insertions),37,14.672076,29.817444,18.61417,0.872891,45.228516,14,19,4,0.1818,0.36214
+AfriSpeech-Dialog,vs defaults,defaults,tuned,WER,20,14.358119,14.486431,-0.089716,-2.610748,2.209478,9,10,1,0.0842,0.7475
+AfriSpeech-Dialog,vs defaults,defaults,tuned,WDER,20,11.319002,11.82912,0.412564,-0.39068,1.209968,8,11,1,0.2316,0.37598
+AfriSpeech-Dialog,vs defaults,defaults,tuned,cpWER,20,29.614422,30.146917,0.187481,-2.439401,2.631888,8,12,0,0.1048,0.701181
+AfriSpeech-Dialog,vs defaults,defaults,tuned,insertions,20,5.767627,3.753128,-2.132001,-3.839025,-0.811091,15,5,0,-0.7905,0.001017
+AfriSpeech-Dialog,vs defaults,defaults,tuned,deletions,20,3.278373,5.087573,1.669203,0.431049,3.163099,6,13,1,0.5579,0.032938
+AfriSpeech-Dialog,vs defaults,defaults,tuned,hallucinated words / 1k,20,13.151986,0.705716,-15.356111,-31.656862,-3.82431,10,0,10,-1.0,0.005062
+AfriSpeech-Dialog,vs defaults,defaults,tuned,negation (incl. insertions),20,19.86755,21.456954,-1.963441,-7.919543,3.087854,7,7,6,-0.0476,0.875291
+AfriSpeech-Dialog,vs defaults,defaults,local20_fareez,WER,20,14.358119,13.569,-1.602451,-3.920314,0.392777,12,8,0,-0.3143,0.230513
+AfriSpeech-Dialog,vs defaults,defaults,local20_fareez,WDER,20,11.319002,11.917938,0.587234,-0.38731,1.547248,7,13,0,0.3048,0.245487
+AfriSpeech-Dialog,vs defaults,defaults,local20_fareez,cpWER,20,29.614422,29.447617,-0.969472,-3.610486,1.558147,12,7,1,-0.2105,0.42091
+AfriSpeech-Dialog,vs defaults,defaults,local20_fareez,insertions,20,5.767627,3.682556,-2.219925,-4.027335,-0.872861,16,2,2,-0.8596,0.00137
+AfriSpeech-Dialog,vs defaults,defaults,local20_fareez,deletions,20,3.278373,4.940014,1.208121,0.160545,2.331432,5,14,1,0.5789,0.026876
+AfriSpeech-Dialog,vs defaults,defaults,local20_fareez,hallucinated words / 1k,20,13.151986,0.64156,-15.396143,-31.694941,-3.870446,10,0,10,-1.0,0.005062
+AfriSpeech-Dialog,vs defaults,defaults,local20_fareez,negation (incl. insertions),20,19.86755,20.264901,-2.911829,-8.497538,2.508026,9,7,4,-0.2206,0.437967
+AfriSpeech-Dialog,vs defaults,defaults,joint,WER,20,14.358119,13.350869,-1.533897,-3.786607,0.451892,12,8,0,-0.2571,0.329983
+AfriSpeech-Dialog,vs defaults,defaults,joint,WDER,20,11.319002,12.413515,1.11484,0.091071,2.187364,6,14,0,0.5429,0.032768
+AfriSpeech-Dialog,vs defaults,defaults,joint,cpWER,20,29.614422,29.960865,-0.266883,-2.900165,2.215338,11,8,1,-0.0842,0.7475
+AfriSpeech-Dialog,vs defaults,defaults,joint,insertions,20,5.767627,3.88144,-1.959247,-3.755302,-0.609511,12,5,3,-0.6993,0.011322
+AfriSpeech-Dialog,vs defaults,defaults,joint,deletions,20,3.278373,4.497338,0.860118,-0.145791,1.939267,7,13,0,0.4,0.123093
+AfriSpeech-Dialog,vs defaults,defaults,joint,hallucinated words / 1k,20,13.151986,0.64156,-15.396143,-31.694941,-3.870446,10,0,10,-1.0,0.005062
+AfriSpeech-Dialog,vs defaults,defaults,joint,negation (incl. insertions),20,19.86755,19.470199,-3.886481,-9.672505,1.443613,9,7,4,-0.3088,0.27753
+AfriSpeech-Dialog,vs defaults,defaults,primock_tuned,WER,20,14.358119,13.350869,-1.533897,-3.786607,0.451892,12,8,0,-0.2571,0.329983
+AfriSpeech-Dialog,vs defaults,defaults,primock_tuned,WDER,20,11.319002,12.413515,1.11484,0.091071,2.187364,6,14,0,0.5429,0.032768
+AfriSpeech-Dialog,vs defaults,defaults,primock_tuned,cpWER,20,29.614422,29.960865,-0.266883,-2.900165,2.215338,11,8,1,-0.0842,0.7475
+AfriSpeech-Dialog,vs defaults,defaults,primock_tuned,insertions,20,5.767627,3.88144,-1.959247,-3.755302,-0.609511,12,5,3,-0.6993,0.011322
+AfriSpeech-Dialog,vs defaults,defaults,primock_tuned,deletions,20,3.278373,4.497338,0.860118,-0.145791,1.939267,7,13,0,0.4,0.123093
+AfriSpeech-Dialog,vs defaults,defaults,primock_tuned,hallucinated words / 1k,20,13.151986,0.64156,-15.396143,-31.694941,-3.870446,10,0,10,-1.0,0.005062
+AfriSpeech-Dialog,vs defaults,defaults,primock_tuned,negation (incl. insertions),20,19.86755,19.470199,-3.886481,-9.672505,1.443613,9,7,4,-0.3088,0.27753
+AfriSpeech-Dialog,vs defaults,defaults,local20_afrispeech,WER,20,14.358119,13.697312,-1.440719,-3.92458,0.638814,10,9,1,-0.1474,0.573169
+AfriSpeech-Dialog,vs defaults,defaults,local20_afrispeech,WDER,20,11.319002,12.510116,1.12796,0.213917,2.030712,5,15,0,0.5714,0.023951
+AfriSpeech-Dialog,vs defaults,defaults,local20_afrispeech,cpWER,20,29.614422,29.973696,-0.38557,-3.130958,2.087835,8,12,0,0.0667,0.812355
+AfriSpeech-Dialog,vs defaults,defaults,local20_afrispeech,insertions,20,5.767627,3.644062,-2.18727,-4.069926,-0.785113,16,4,0,-0.7238,0.004546
+AfriSpeech-Dialog,vs defaults,defaults,local20_afrispeech,deletions,20,3.278373,4.875858,1.131943,0.05917,2.315887,5,13,2,0.4854,0.070709
+AfriSpeech-Dialog,vs defaults,defaults,local20_afrispeech,hallucinated words / 1k,20,13.151986,0.64156,-15.396143,-31.694941,-3.870446,10,0,10,-1.0,0.005062
+AfriSpeech-Dialog,vs defaults,defaults,local20_afrispeech,negation (incl. insertions),20,19.86755,21.854305,-2.825815,-10.825715,3.427075,8,7,5,-0.0333,0.909561
+AfriSpeech-Dialog,vs defaults,defaults,oldref_v2_fp16,WER,20,14.358119,10.945018,-3.58119,-6.416758,-0.847351,16,3,1,-0.7053,0.007013
+AfriSpeech-Dialog,vs defaults,defaults,oldref_v2_fp16,WDER,20,11.319002,8.757801,-3.041066,-4.426597,-1.826646,20,0,0,-1.0,2e-06
+AfriSpeech-Dialog,vs defaults,defaults,oldref_v2_fp16,cpWER,20,29.614422,24.244563,-6.105441,-9.204848,-3.198577,18,2,0,-0.8476,0.000322
+AfriSpeech-Dialog,vs defaults,defaults,oldref_v2_fp16,insertions,20,5.767627,2.514916,-3.147351,-4.903035,-1.789471,20,0,0,-1.0,2e-06
+AfriSpeech-Dialog,vs defaults,defaults,oldref_v2_fp16,deletions,20,3.278373,4.401103,0.799017,-0.911465,2.49451,8,10,2,0.2749,0.306103
+AfriSpeech-Dialog,vs defaults,defaults,oldref_v2_fp16,hallucinated words / 1k,20,13.151986,0.64156,-14.843984,-29.657151,-4.014626,10,0,10,-1.0,0.005062
+AfriSpeech-Dialog,vs defaults,defaults,oldref_v2_fp16,negation (incl. insertions),20,19.86755,15.231788,-6.548201,-13.654769,-0.061811,10,4,6,-0.4857,0.109421
+AfriSpeech-Dialog,vs defaults,defaults,v3_oldref,WER,20,14.358119,16.66132,2.020921,-0.19989,4.448116,9,9,2,0.3216,0.231059
+AfriSpeech-Dialog,vs defaults,defaults,v3_oldref,WDER,20,11.319002,11.966433,0.610308,-0.559311,2.362244,8,11,1,0.1474,0.573169
+AfriSpeech-Dialog,vs defaults,defaults,v3_oldref,cpWER,20,29.614422,32.5656,2.693835,0.241949,5.419813,8,12,0,0.4095,0.113987
+AfriSpeech-Dialog,vs defaults,defaults,v3_oldref,insertions,20,5.767627,7.679476,2.159724,0.327841,4.392512,7,12,1,0.4316,0.098957
+AfriSpeech-Dialog,vs defaults,defaults,v3_oldref,deletions,20,3.278373,2.880606,-0.652829,-1.743284,0.191911,7,9,4,-0.2206,0.437967
+AfriSpeech-Dialog,vs defaults,defaults,v3_oldref,hallucinated words / 1k,20,13.151986,34.451787,23.108583,6.784343,43.842958,2,12,6,0.7714,0.011008
+AfriSpeech-Dialog,vs defaults,defaults,v3_oldref,negation (incl. insertions),20,19.86755,21.589404,1.468773,-3.163034,6.408189,7,8,5,0.1,0.733271
+AfriSpeech-Dialog,vs defaults,defaults,trial32_v2_fp16,WER,20,14.358119,11.111824,-3.496636,-6.218244,-0.86831,15,2,3,-0.7908,0.004184
+AfriSpeech-Dialog,vs defaults,defaults,trial32_v2_fp16,WDER,20,11.319002,8.635023,-3.181216,-4.577221,-1.918448,20,0,0,-1.0,2e-06
+AfriSpeech-Dialog,vs defaults,defaults,trial32_v2_fp16,cpWER,20,29.614422,24.135498,-6.225665,-9.293237,-3.374864,19,1,0,-0.8762,0.000168
+AfriSpeech-Dialog,vs defaults,defaults,trial32_v2_fp16,insertions,20,5.767627,2.604735,-3.057271,-4.805047,-1.705925,19,0,1,-1.0,0.000132
+AfriSpeech-Dialog,vs defaults,defaults,trial32_v2_fp16,deletions,20,3.278373,4.311285,0.725499,-0.924762,2.352491,7,11,2,0.3333,0.214537
+AfriSpeech-Dialog,vs defaults,defaults,trial32_v2_fp16,hallucinated words / 1k,20,13.151986,0.64156,-14.843984,-29.657151,-4.014626,10,0,10,-1.0,0.005062
+AfriSpeech-Dialog,vs defaults,defaults,trial32_v2_fp16,negation (incl. insertions),20,19.86755,14.966887,-7.061272,-13.369736,-1.626231,10,6,4,-0.5,0.078731
+AfriSpeech-Dialog,vs defaults,defaults,v3_trial32,WER,20,14.358119,69.602874,33.490556,4.252971,71.603539,8,11,1,0.4,0.126214
+AfriSpeech-Dialog,vs defaults,defaults,v3_trial32,WDER,20,11.319002,22.633583,7.136995,1.050408,15.746504,5,15,0,0.581,0.021484
+AfriSpeech-Dialog,vs defaults,defaults,v3_trial32,cpWER,20,29.614422,83.043562,32.172479,4.305207,69.868298,7,12,1,0.4316,0.098957
+AfriSpeech-Dialog,vs defaults,defaults,v3_trial32,insertions,20,5.767627,50.388144,26.824056,4.191597,55.689957,6,14,0,0.5048,0.048441
+AfriSpeech-Dialog,vs defaults,defaults,v3_trial32,deletions,20,3.278373,2.264708,-0.894615,-1.784689,-0.15816,12,7,1,-0.4947,0.058573
+AfriSpeech-Dialog,vs defaults,defaults,v3_trial32,hallucinated words / 1k,20,13.151986,448.514788,262.238317,41.33047,547.971619,5,13,2,0.5789,0.031104
+AfriSpeech-Dialog,vs defaults,defaults,v3_trial32,negation (incl. insertions),20,19.86755,59.470199,27.541945,0.623197,64.297416,6,11,3,0.3333,0.227385
+AfriSpeech-Dialog,cost of globality (joint minus local),local20_afrispeech,joint,WER,20,13.697312,13.350869,-0.093178,-0.767712,0.599738,11,9,0,-0.1238,0.647655
+AfriSpeech-Dialog,cost of globality (joint minus local),local20_afrispeech,joint,WDER,20,12.510116,12.413515,-0.013121,-0.600349,0.580164,10,10,0,-0.0476,0.869488
+AfriSpeech-Dialog,cost of globality (joint minus local),local20_afrispeech,joint,cpWER,20,29.973696,29.960865,0.118686,-0.767571,1.012122,9,11,0,0.1048,0.701181
+AfriSpeech-Dialog,cost of globality (joint minus local),local20_afrispeech,joint,insertions,20,3.644062,3.88144,0.228023,-0.073194,0.511842,6,13,1,0.4105,0.116544
+AfriSpeech-Dialog,cost of globality (joint minus local),local20_afrispeech,joint,deletions,20,4.875858,4.497338,-0.271825,-0.687014,0.113482,13,7,0,-0.2762,0.294252
+AfriSpeech-Dialog,cost of globality (joint minus local),local20_afrispeech,joint,hallucinated words / 1k,20,0.64156,0.64156,0.0,0.0,0.0,0,0,20,0.0,
+AfriSpeech-Dialog,cost of globality (joint minus local),local20_afrispeech,joint,negation (incl. insertions),20,21.854305,19.470199,-1.060665,-3.916865,2.359421,9,4,7,-0.3846,0.22133
+AfriSpeech-Dialog,"checkpoint, reference vector (v3 minus v2)",oldref_v2_fp16,v3_oldref,WER,20,10.945018,16.66132,5.602111,1.432719,10.218038,2,18,0,0.7143,0.003654
+AfriSpeech-Dialog,"checkpoint, reference vector (v3 minus v2)",oldref_v2_fp16,v3_oldref,WDER,20,8.757801,11.966433,3.651374,1.964899,5.927613,1,19,0,0.9905,4e-06
+AfriSpeech-Dialog,"checkpoint, reference vector (v3 minus v2)",oldref_v2_fp16,v3_oldref,cpWER,20,24.244563,32.5656,8.799276,4.560959,13.718355,1,19,0,0.9048,8.2e-05
+AfriSpeech-Dialog,"checkpoint, reference vector (v3 minus v2)",oldref_v2_fp16,v3_oldref,insertions,20,2.514916,7.679476,5.307075,2.677081,8.873422,0,20,0,1.0,2e-06
+AfriSpeech-Dialog,"checkpoint, reference vector (v3 minus v2)",oldref_v2_fp16,v3_oldref,deletions,20,4.401103,2.880606,-1.451846,-2.997692,-0.136924,13,6,1,-0.4526,0.083556
+AfriSpeech-Dialog,"checkpoint, reference vector (v3 minus v2)",oldref_v2_fp16,v3_oldref,hallucinated words / 1k,20,0.64156,34.451787,37.952567,14.634934,70.953927,0,14,6,1.0,0.000982
+AfriSpeech-Dialog,"checkpoint, reference vector (v3 minus v2)",oldref_v2_fp16,v3_oldref,negation (incl. insertions),20,15.231788,21.589404,8.016974,-0.787065,16.649475,4,10,6,0.5429,0.073594
+AfriSpeech-Dialog,"checkpoint, trial32 vector (v3 minus v2)",trial32_v2_fp16,v3_trial32,WER,20,11.111824,69.602874,36.987192,8.051614,75.11679,2,18,0,0.8381,0.000395
+AfriSpeech-Dialog,"checkpoint, trial32 vector (v3 minus v2)",trial32_v2_fp16,v3_trial32,WDER,20,8.635023,22.633583,10.318211,4.452949,18.754705,0,20,0,1.0,2e-06
+AfriSpeech-Dialog,"checkpoint, trial32 vector (v3 minus v2)",trial32_v2_fp16,v3_trial32,cpWER,20,24.135498,83.043562,38.398144,11.187573,75.322534,1,19,0,0.9048,8.2e-05
+AfriSpeech-Dialog,"checkpoint, trial32 vector (v3 minus v2)",trial32_v2_fp16,v3_trial32,insertions,20,2.604735,50.388144,29.881327,7.101321,59.012009,0,20,0,1.0,2e-06
+AfriSpeech-Dialog,"checkpoint, trial32 vector (v3 minus v2)",trial32_v2_fp16,v3_trial32,deletions,20,4.311285,2.264708,-1.620114,-3.232273,-0.190109,13,6,1,-0.4421,0.090995
+AfriSpeech-Dialog,"checkpoint, trial32 vector (v3 minus v2)",trial32_v2_fp16,v3_trial32,hallucinated words / 1k,20,0.64156,448.514788,277.082301,58.35109,560.191427,0,17,3,1.0,0.000293
+AfriSpeech-Dialog,"checkpoint, trial32 vector (v3 minus v2)",trial32_v2_fp16,v3_trial32,negation (incl. insertions),20,14.966887,59.470199,34.603217,8.050159,71.859573,1,14,5,0.8333,0.004514

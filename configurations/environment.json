@@ -1,0 +1,48 @@
+{
+ "note": "environment for the Fareez Optuna study; search venv ~/osce/venv, scoring venv ~/eval_venv",
+ "python_search": "3.12.3",
+ "search_venv": {
+  "faster-whisper": "1.2.1",
+  "ctranslate2": "4.8.1",
+  "pyannote.audio": "4.0.7",
+  "whisperx": "3.8.6",
+  "torch": "2.8.0",
+  "transformers": "4.57.6",
+  "optuna": "4.9.0",
+  "jiwer": "3.1.0",
+  "whisper-normalizer": "0.1.15",
+  "numpy": "2.2.6",
+  "pandas": "3.0.5",
+  "openpyxl": "3.1.5"
+ },
+ "eval_venv": {
+  "meeteval": "0.4.3",
+  "jiwer": "4.0.0",
+  "scipy": "1.18.1",
+  "pandas": "3.0.5",
+  "numpy": "2.5.3",
+  "whisper-normalizer": "0.1.15"
+ },
+ "jiwer_cross_version_check": "jiwer 3.1.0 (search) and 4.0.0 (scoring) give identical S/D/I/hits on 200 random cases",
+ "torch_cuda": "12.8",
+ "cudnn": 91002,
+ "gpu": "NVIDIA GeForce RTX 5090 Laptop GPU",
+ "os": "WSL2 Ubuntu 24.04 on Windows 11",
+ "hf_model_snapshots": {
+  "models--Systran--faster-whisper-large-v3": [
+   "edaa852ec7e145841d8ffdb056a99866b5f0a478"
+  ],
+  "models--Systran--faster-whisper-large-v2": [
+   "f0fe81560cb8b68660e564f55dd99207059c092e"
+  ],
+  "models--pyannote--speaker-diarization-community-1": [
+   "3533c8cf8e369892e6b79ff1bf80f7b0286a54ee"
+  ]
+ },
+ "seeds": {
+  "tuning_set_selection": 20260915,
+  "optuna_sampler": "20260915 + worker id",
+  "ctranslate2_final_runs": 20260915,
+  "bootstrap": 20260915
+ }
+}

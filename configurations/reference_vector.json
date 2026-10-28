@@ -1,0 +1,31 @@
+{
+  "description": "Reference decoding vector, run unchanged on Whisper large-v2 and large-v3 (float16) in the matched-checkpoint comparison",
+  "decode_kwargs": {
+    "beam_size": 5,
+    "patience": 1.0,
+    "length_penalty": 1.0,
+    "best_of": 5,
+    "repetition_penalty": 1.0,
+    "no_repeat_ngram_size": 0,
+    "temperature": [
+      0.0,
+      0.2,
+      0.4,
+      0.6,
+      0.8,
+      1.0
+    ],
+    "no_speech_threshold": 0.6,
+    "log_prob_threshold": -1.0,
+    "compression_ratio_threshold": 3.0,
+    "condition_on_previous_text": true,
+    "initial_prompt": null,
+    "vad_filter": true,
+    "vad_parameters": {
+      "threshold": 0.3,
+      "min_speech_duration_ms": 250,
+      "min_silence_duration_ms": 2000,
+      "speech_pad_ms": 400
+    }
+  }
+}

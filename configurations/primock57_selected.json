@@ -1,0 +1,53 @@
+{
+ "study": "primock57_large_v3",
+ "trial": 31,
+ "dev_wer": 0.12058980162428438,
+ "complete_trials": 52,
+ "basis": "minimum pooled development WER on PriMock57's own 20-consultation split; no guardrails applied",
+ "params": {
+  "beam_size": 5,
+  "patience": 1.2892983089975756,
+  "length_penalty": 1.1336742415752792,
+  "repetition_penalty": 1.0003012903539006,
+  "no_repeat_ngram_size": 0,
+  "temperature_fallback": "short",
+  "best_of": 1,
+  "compression_ratio_threshold": 2.3090012166768297,
+  "log_prob_threshold": -0.6508922295572557,
+  "no_speech_threshold": 0.4662834576554118,
+  "condition_on_previous_text": false,
+  "initial_prompt": "none",
+  "hallucination_silence": "on",
+  "hallucination_silence_threshold": 1.4665129380691815,
+  "vad_threshold": 0.36221394485239966,
+  "vad_min_speech_ms": 161,
+  "vad_min_silence_ms": 377,
+  "vad_speech_pad_ms": 55
+ },
+ "transcribe_kwargs": {
+  "vad_filter": true,
+  "beam_size": 5,
+  "patience": 1.2892983089975756,
+  "length_penalty": 1.1336742415752792,
+  "repetition_penalty": 1.0003012903539006,
+  "no_repeat_ngram_size": 0,
+  "temperature": [
+   0.0,
+   0.2,
+   0.4
+  ],
+  "best_of": 1,
+  "compression_ratio_threshold": 2.3090012166768297,
+  "log_prob_threshold": -0.6508922295572557,
+  "no_speech_threshold": 0.4662834576554118,
+  "condition_on_previous_text": false,
+  "initial_prompt": null,
+  "hallucination_silence_threshold": 1.4665129380691815,
+  "vad_parameters": {
+   "threshold": 0.36221394485239966,
+   "min_speech_duration_ms": 161,
+   "min_silence_duration_ms": 377,
+   "speech_pad_ms": 55
+  }
+ }
+}

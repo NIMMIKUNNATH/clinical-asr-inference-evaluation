@@ -1,0 +1,313 @@
+event_set,event_id,corpus,speaker_role,cue_type,R1_role,R1_flag_correct,R1_meaning_changed,R1_confidence,R2_role,R2_flag_correct,R2_meaning_changed,R2_confidence,R3_role,R3_flag_correct,R3_meaning_changed,R3_confidence,R4_role,R4_flag_correct,R4_meaning_changed,R4_confidence,R5_role,R5_flag_correct,R5_meaning_changed,R5_confidence,majority_flag_correct,majority_meaning_changed,physicians_agreed_meaning
+physician_132,E0001,AfriSpeech-Dialog,PATIENT,inserted passage,physician,Yes,No,High,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0002,PriMock57,DOCTOR,inserted passage,physician,Yes,No,Moderate,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0003,Fareez,DOCTOR,inserted passage,physician,Yes,No,Moderate,physician,No,No,High,,,,,,,,,,,,,,,No
+physician_132,E0004,Fareez,PATIENT,inserted affirmation,physician,Yes,No,High,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0005,PriMock57,PATIENT,medication term,physician,Yes,Yes,Moderate,physician,Yes,Yes,High,,,,,,,,,,,,,,,Yes
+physician_132,E0006,AfriSpeech-Dialog,PATIENT,negation cue,physician,Yes,No,High,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0007,PriMock57,DOCTOR,inserted affirmation,physician,Yes,No,High,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0008,Fareez,DOCTOR,inserted passage,physician,Yes,No,High,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0009,PriMock57,DOCTOR,inserted passage,physician,Yes,No,High,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0010,PriMock57,PATIENT,inserted passage,physician,Yes,No,High,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0011,AfriSpeech-Dialog,DOCTOR,medication term,physician,Yes,Yes,High,physician,Partially,Yes,High,,,,,,,,,,,,,,,Yes
+physician_132,E0012,AfriSpeech-Dialog,DOCTOR,inserted passage,physician,Yes,No,Low,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0013,PriMock57,PATIENT,negation cue,physician,Yes,No,Low,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0014,AfriSpeech-Dialog,DOCTOR,inserted passage,physician,Yes,No,Low,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0015,PriMock57,PATIENT,inserted negation,physician,Yes,Yes,High,physician,Yes,Yes,High,,,,,,,,,,,,,,,Yes
+physician_132,E0016,AfriSpeech-Dialog,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,,,,,,,,,,,,,,,Yes
+physician_132,E0017,Fareez,PATIENT,inserted negation,physician,Yes,Yes,High,physician,Partially,Yes,High,,,,,,,,,,,,,,,Yes
+physician_132,E0018,Fareez,DOCTOR,inserted negation,physician,Yes,No,High,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0019,PriMock57,DOCTOR,medication term,physician,Yes,Yes,High,physician,Yes,Yes,High,,,,,,,,,,,,,,,Yes
+physician_132,E0020,AfriSpeech-Dialog,DOCTOR,inserted negation,physician,Yes,No,Moderate,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0021,PriMock57,PATIENT,medication term,physician,Yes,Yes,High,physician,Partially,Yes,High,,,,,,,,,,,,,,,Yes
+physician_132,E0022,PriMock57,DOCTOR,inserted medication,physician,Yes,Yes,High,physician,Yes,Yes,Moderate,,,,,,,,,,,,,,,Yes
+physician_132,E0023,PriMock57,PATIENT,inserted passage,physician,Yes,Yes,High,physician,Partially,Yes,High,,,,,,,,,,,,,,,Yes
+physician_132,E0024,AfriSpeech-Dialog,DOCTOR,inserted passage,physician,Yes,No,Moderate,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0025,Fareez,PATIENT,inserted passage,physician,Yes,Yes,High,physician,Yes,Yes,High,,,,,,,,,,,,,,,Yes
+physician_132,E0026,PriMock57,PATIENT,inserted medication,physician,Yes,Yes,High,physician,Yes,Yes,High,,,,,,,,,,,,,,,Yes
+physician_132,E0027,PriMock57,DOCTOR,medication term,physician,Yes,No,Moderate,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0028,Fareez,PATIENT,inserted passage,physician,Yes,No,Low,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0029,AfriSpeech-Dialog,PATIENT,negation cue,physician,Yes,No,High,physician,Partially,No,High,,,,,,,,,,,,,,,No
+physician_132,E0030,PriMock57,PATIENT,negation cue,physician,Yes,No,Moderate,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0031,PriMock57,PATIENT,inserted passage,physician,Yes,No,Moderate,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0032,AfriSpeech-Dialog,PATIENT,negation cue,physician,Yes,No,High,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0033,PriMock57,DOCTOR,medication term,physician,Yes,Yes,Moderate,physician,Partially,Yes,High,,,,,,,,,,,,,,,Yes
+physician_132,E0034,AfriSpeech-Dialog,DOCTOR,negation cue,physician,Yes,No,High,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0035,AfriSpeech-Dialog,DOCTOR,negation cue,physician,Yes,No,Moderate,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0036,AfriSpeech-Dialog,DOCTOR,inserted negation,physician,Yes,No,High,physician,Partially,No,High,,,,,,,,,,,,,,,No
+physician_132,E0037,AfriSpeech-Dialog,DOCTOR,inserted negation,physician,Yes,No,Moderate,physician,Partially,No,High,,,,,,,,,,,,,,,No
+physician_132,E0038,AfriSpeech-Dialog,PATIENT,negation cue,physician,Yes,No,Moderate,physician,Partially,No,Moderate,,,,,,,,,,,,,,,No
+physician_132,E0039,Fareez,DOCTOR,inserted passage,physician,Yes,No,Moderate,physician,Partially,No,High,,,,,,,,,,,,,,,No
+physician_132,E0040,PriMock57,PATIENT,negation cue,physician,No,No,Low,physician,No,No,High,,,,,,,,,,,,,,,No
+physician_132,E0041,Fareez,PATIENT,inserted affirmation,physician,Yes,No,High,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0042,Fareez,PATIENT,inserted negation,physician,Yes,No,Moderate,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0043,PriMock57,PATIENT,inserted passage,physician,Yes,Yes,Moderate,physician,Yes,No,High,,,,,,,,,,,,,,,Discordant
+physician_132,E0044,PriMock57,DOCTOR,inserted affirmation,physician,Yes,No,Moderate,physician,Partially,No,Moderate,,,,,,,,,,,,,,,No
+physician_132,E0045,AfriSpeech-Dialog,PATIENT,negation cue,physician,Partially,Yes,High,physician,Partially,Yes,High,,,,,,,,,,,,,,,Yes
+physician_132,E0047,AfriSpeech-Dialog,PATIENT,negation cue,physician,Yes,No,Moderate,physician,No,No,High,,,,,,,,,,,,,,,No
+physician_132,E0048,PriMock57,PATIENT,inserted affirmation,physician,Yes,No,High,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0049,PriMock57,DOCTOR,medication term,physician,Yes,Yes,High,physician,Yes,Yes,High,,,,,,,,,,,,,,,Yes
+physician_132,E0050,PriMock57,PATIENT,inserted negation,physician,Partially,Partially,Moderate,physician,Partially,Partially,Moderate,,,,,,,,,,,,,,,Partially
+physician_132,E0051,PriMock57,PATIENT,inserted affirmation,physician,Yes,No,Moderate,physician,Partially,No,High,,,,,,,,,,,,,,,No
+physician_132,E0052,PriMock57,DOCTOR,inserted affirmation,physician,Partially,Yes,High,physician,Partially,Yes,High,,,,,,,,,,,,,,,Yes
+physician_132,E0053,AfriSpeech-Dialog,DOCTOR,inserted passage,physician,Partially,No,High,physician,Partially,No,High,,,,,,,,,,,,,,,No
+physician_132,E0054,Fareez,PATIENT,inserted passage,physician,Partially,No,High,physician,Partially,No,High,,,,,,,,,,,,,,,No
+physician_132,E0055,PriMock57,PATIENT,negation cue,physician,Yes,Yes,Moderate,physician,Yes,Yes,High,,,,,,,,,,,,,,,Yes
+physician_132,E0056,AfriSpeech-Dialog,DOCTOR,inserted negation,physician,Yes,Yes,High,physician,Partially,Yes,High,,,,,,,,,,,,,,,Yes
+physician_132,E0057,PriMock57,DOCTOR,inserted passage,physician,Yes,No,Low,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0058,Fareez,DOCTOR,inserted negation,physician,Yes,No,Low,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0059,PriMock57,DOCTOR,inserted negation,physician,Partially,Yes,High,physician,Partially,Yes,High,,,,,,,,,,,,,,,Yes
+physician_132,E0060,Fareez,PATIENT,inserted passage,physician,Partially,No,Low,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0061,Fareez,DOCTOR,inserted passage,physician,Yes,No,Low,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0062,AfriSpeech-Dialog,DOCTOR,negation cue,physician,Yes,No,High,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0063,Fareez,PATIENT,inserted passage,physician,Yes,Partially,High,physician,Yes,Partially,High,,,,,,,,,,,,,,,Partially
+physician_132,E0064,AfriSpeech-Dialog,DOCTOR,inserted negation,physician,Yes,No,High,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0065,AfriSpeech-Dialog,DOCTOR,inserted negation,physician,Yes,Yes,High,physician,Partially,Yes,High,,,,,,,,,,,,,,,Yes
+physician_132,E0066,PriMock57,DOCTOR,inserted affirmation,physician,Yes,No,Low,physician,Partially,No,High,,,,,,,,,,,,,,,No
+physician_132,E0067,Fareez,PATIENT,inserted negation,physician,Yes,Yes,High,physician,Partially,Yes,High,,,,,,,,,,,,,,,Yes
+physician_132,E0068,AfriSpeech-Dialog,PATIENT,inserted passage,physician,Yes,No,High,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0069,Fareez,PATIENT,inserted passage,physician,Yes,Yes,High,physician,Yes,Yes,High,,,,,,,,,,,,,,,Yes
+physician_132,E0070,PriMock57,PATIENT,inserted passage,physician,No,No,Low,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0071,Fareez,DOCTOR,inserted passage,physician,Yes,No,High,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0072,AfriSpeech-Dialog,PATIENT,negation cue,physician,Yes,No,Moderate,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0073,Fareez,PATIENT,inserted affirmation,physician,Yes,No,Moderate,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0074,AfriSpeech-Dialog,DOCTOR,inserted passage,physician,No,No,High,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0075,PriMock57,DOCTOR,medication term,physician,No,Yes,High,physician,Partially,Yes,High,,,,,,,,,,,,,,,Yes
+physician_132,E0076,Fareez,DOCTOR,inserted negation,physician,Partially,Partially,Moderate,physician,Partially,Partially,Moderate,,,,,,,,,,,,,,,Partially
+physician_132,E0077,AfriSpeech-Dialog,PATIENT,negation cue,physician,Yes,No,High,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0078,AfriSpeech-Dialog,PATIENT,inserted negation,physician,Yes,No,High,physician,Yes,Yes,High,,,,,,,,,,,,,,,Discordant
+physician_132,E0079,PriMock57,PATIENT,inserted medication,physician,Yes,Yes,High,physician,Yes,Yes,High,,,,,,,,,,,,,,,Yes
+physician_132,E0080,Fareez,PATIENT,inserted passage,physician,Yes,No,High,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0081,PriMock57,DOCTOR,medication term,physician,Yes,Yes,High,physician,No,Yes,Moderate,,,,,,,,,,,,,,,Yes
+physician_132,E0082,AfriSpeech-Dialog,PATIENT,negation cue,physician,Yes,Yes,Low,physician,Partially,Yes,High,,,,,,,,,,,,,,,Yes
+physician_132,E0083,Fareez,DOCTOR,inserted passage,physician,Yes,No,Moderate,physician,Partially,No,High,,,,,,,,,,,,,,,No
+physician_132,E0084,PriMock57,PATIENT,inserted passage,physician,Yes,Yes,High,physician,Partially,Yes,High,,,,,,,,,,,,,,,Yes
+physician_132,E0085,Fareez,DOCTOR,inserted passage,physician,Yes,No,High,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0086,Fareez,PATIENT,inserted affirmation,physician,Yes,No,High,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0087,Fareez,PATIENT,inserted negation,physician,Yes,Yes,High,physician,Yes,Yes,High,,,,,,,,,,,,,,,Yes
+physician_132,E0088,Fareez,DOCTOR,inserted negation,physician,Yes,No,Moderate,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0089,Fareez,PATIENT,inserted passage,physician,Yes,No,Moderate,physician,Partially,No,High,,,,,,,,,,,,,,,No
+physician_132,E0090,Fareez,PATIENT,inserted affirmation,physician,Partially,Partially,High,physician,Partially,Partially,High,,,,,,,,,,,,,,,Partially
+physician_132,E0091,AfriSpeech-Dialog,DOCTOR,inserted negation,physician,Yes,No,High,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0092,Fareez,DOCTOR,inserted negation,physician,Yes,No,Moderate,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0093,PriMock57,PATIENT,inserted passage,physician,Yes,No,High,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0094,AfriSpeech-Dialog,PATIENT,negation cue,physician,Yes,No,High,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0095,Fareez,PATIENT,inserted passage,physician,Yes,Yes,Moderate,physician,Yes,Yes,High,,,,,,,,,,,,,,,Yes
+physician_132,E0096,Fareez,PATIENT,inserted negation,physician,Yes,No,High,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0097,AfriSpeech-Dialog,DOCTOR,inserted affirmation,physician,Yes,No,Moderate,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0099,PriMock57,PATIENT,negation cue,physician,Yes,No,Moderate,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0100,PriMock57,DOCTOR,inserted passage,physician,Yes,No,High,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0101,PriMock57,DOCTOR,medication term,physician,Yes,No,High,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0103,PriMock57,PATIENT,inserted passage,physician,Yes,No,High,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0104,PriMock57,PATIENT,medication term,physician,No,No,High,physician,No,No,High,,,,,,,,,,,,,,,No
+physician_132,E0105,PriMock57,PATIENT,inserted affirmation,physician,Yes,No,Moderate,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0106,PriMock57,PATIENT,inserted passage,physician,Yes,No,Moderate,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0107,AfriSpeech-Dialog,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,,,,,,,,,,,,,,,Yes
+physician_132,E0108,AfriSpeech-Dialog,PATIENT,inserted affirmation,physician,Yes,No,High,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0109,PriMock57,PATIENT,negation cue,physician,Yes,Yes,High,physician,Partially,Yes,Moderate,,,,,,,,,,,,,,,Yes
+physician_132,E0110,Fareez,PATIENT,inserted affirmation,physician,Yes,No,High,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0111,AfriSpeech-Dialog,PATIENT,negation cue,physician,Partially,Yes,High,physician,Partially,Yes,High,,,,,,,,,,,,,,,Yes
+physician_132,E0112,PriMock57,PATIENT,inserted medication,physician,Yes,Yes,High,physician,Yes,Yes,High,,,,,,,,,,,,,,,Yes
+physician_132,E0113,AfriSpeech-Dialog,DOCTOR,negation cue,physician,Yes,No,High,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0114,PriMock57,PATIENT,negation cue,physician,Yes,No,High,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0115,Fareez,PATIENT,inserted affirmation,physician,Yes,No,Low,physician,Partially,No,High,,,,,,,,,,,,,,,No
+physician_132,E0116,Fareez,PATIENT,inserted negation,physician,Yes,No,Moderate,physician,Partially,No,High,,,,,,,,,,,,,,,No
+physician_132,E0117,PriMock57,PATIENT,inserted negation,physician,Yes,Yes,High,physician,Yes,Yes,High,,,,,,,,,,,,,,,Yes
+physician_132,E0118,PriMock57,PATIENT,negation cue,physician,Yes,No,High,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0119,PriMock57,PATIENT,inserted negation,physician,Yes,Yes,High,physician,Partially,Yes,High,,,,,,,,,,,,,,,Yes
+physician_132,E0120,AfriSpeech-Dialog,PATIENT,negation cue,physician,No,No,High,physician,No,No,High,,,,,,,,,,,,,,,No
+physician_132,E0121,Fareez,PATIENT,inserted passage,physician,Yes,No,Moderate,physician,Partially,No,High,,,,,,,,,,,,,,,No
+physician_132,E0122,PriMock57,PATIENT,negation cue,physician,Yes,No,High,physician,Partially,No,High,,,,,,,,,,,,,,,No
+physician_132,E0123,PriMock57,PATIENT,inserted passage,physician,Yes,No,High,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0124,PriMock57,PATIENT,inserted passage,physician,Partially,Partially,Moderate,physician,Partially,Partially,Moderate,,,,,,,,,,,,,,,Partially
+physician_132,E0125,PriMock57,PATIENT,negation cue,physician,Yes,No,High,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0126,Fareez,DOCTOR,inserted negation,physician,Yes,No,High,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0127,PriMock57,PATIENT,negation cue,physician,Yes,No,High,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0128,PriMock57,DOCTOR,medication term,physician,Yes,Yes,High,physician,Partially,Yes,High,,,,,,,,,,,,,,,Yes
+physician_132,E0129,AfriSpeech-Dialog,PATIENT,inserted passage,physician,Yes,Yes,High,physician,Yes,Yes,Moderate,,,,,,,,,,,,,,,Yes
+physician_132,E0130,PriMock57,PATIENT,negation cue,physician,Yes,No,Moderate,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0131,PriMock57,PATIENT,inserted passage,physician,Yes,Yes,High,physician,Partially,Yes,High,,,,,,,,,,,,,,,Yes
+physician_132,E0132,AfriSpeech-Dialog,PATIENT,negation cue,physician,No,No,Low,physician,Partially,No,High,,,,,,,,,,,,,,,No
+physician_132,E0133,AfriSpeech-Dialog,PATIENT,negation cue,physician,No,No,Low,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0134,Fareez,DOCTOR,inserted passage,physician,Yes,No,High,physician,Yes,No,High,,,,,,,,,,,,,,,No
+physician_132,E0135,Fareez,DOCTOR,inserted passage,physician,Yes,No,High,physician,Yes,No,High,,,,,,,,,,,,,,,No
+panel_180,E0001,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0002,Fareez,DOCTOR,negation cue,physician,Yes,No,High,physician,Yes,No,High,nursing student,Yes,Partially,High,nursing student,Yes,No,High,nursing student,Yes,Partially,Moderate,Yes,No,No
+panel_180,E0003,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Partially,High,Yes,Yes,Yes
+panel_180,E0004,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,Yes,No,Yes
+panel_180,E0005,Fareez,PATIENT,negation cue,physician,Partially,Yes,High,physician,Yes,Yes,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,Yes,No,Yes
+panel_180,E0006,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0007,Fareez,DOCTOR,negation cue,physician,Partially,Partially,High,physician,No,No,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Discordant
+panel_180,E0008,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0009,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0010,Fareez,PATIENT,negation cue,physician,Partially,No,High,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,Yes,No,No
+panel_180,E0011,Fareez,PATIENT,negation cue,physician,Partially,No,High,physician,Yes,No,High,nursing student,Yes,No,Moderate,nursing student,No,No,High,nursing student,Yes,Partially,Moderate,Yes,No,No
+panel_180,E0012,Fareez,PATIENT,negation cue,physician,Partially,No,High,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,Partially,High,Yes,No,No
+panel_180,E0013,Fareez,PATIENT,negation cue,physician,Partially,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0014,Fareez,PATIENT,negation cue,physician,Partially,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0015,Fareez,DOCTOR,negation cue,physician,Partially,No,High,physician,Yes,No,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,No
+panel_180,E0016,Fareez,DOCTOR,negation cue,physician,Partially,No,High,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,Partially,Moderate,Yes,No,No
+panel_180,E0017,Fareez,DOCTOR,negation cue,physician,Partially,No,High,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,Moderate,Yes,No,No
+panel_180,E0018,Fareez,PATIENT,negation cue,physician,Partially,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0019,Fareez,PATIENT,negation cue,physician,Partially,No,High,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,Partially,Moderate,Yes,No,No
+panel_180,E0020,Fareez,PATIENT,negation cue,physician,Partially,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0021,Fareez,PATIENT,negation cue,physician,Partially,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0022,Fareez,PATIENT,negation cue,physician,Partially,No,High,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,Yes,No,No
+panel_180,E0023,Fareez,PATIENT,negation cue,physician,Partially,No,High,physician,Yes,No,High,nursing student,Yes,Yes,Moderate,nursing student,Yes,No,High,nursing student,Yes,Yes,Moderate,Yes,No,No
+panel_180,E0024,Fareez,DOCTOR,negation cue,physician,Partially,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,No,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0025,Fareez,PATIENT,medication term,physician,Partially,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0026,Fareez,PATIENT,negation cue,physician,Partially,No,Moderate,physician,Yes,No,Moderate,nursing student,Yes,No,Moderate,nursing student,Yes,No,High,nursing student,Yes,Partially,Moderate,Yes,No,No
+panel_180,E0027,Fareez,PATIENT,negation cue,physician,Partially,No,High,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,Yes,No,No
+panel_180,E0028,Fareez,DOCTOR,negation cue,physician,Partially,No,High,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,Moderate,Yes,No,No
+panel_180,E0029,Fareez,PATIENT,negation cue,physician,Partially,No,Moderate,physician,Yes,No,Moderate,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,Partially,Moderate,Yes,No,No
+panel_180,E0030,Fareez,PATIENT,negation cue,physician,Partially,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0031,Fareez,PATIENT,negation cue,physician,Partially,No,High,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,Yes,No,No
+panel_180,E0032,Fareez,PATIENT,negation cue,physician,Partially,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,No,Moderate,nursing student,Yes,Partially,High,Yes,Yes,Yes
+panel_180,E0033,Fareez,PATIENT,negation cue,physician,Partially,No,High,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,Yes,No,No
+panel_180,E0034,Fareez,PATIENT,negation cue,physician,Partially,Partially,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Discordant
+panel_180,E0035,Fareez,PATIENT,negation cue,physician,Yes,No,High,physician,Yes,No,High,nursing student,Yes,Yes,Moderate,nursing student,Yes,Partially,High,nursing student,Yes,Yes,High,Yes,Tie,No
+panel_180,E0036,Fareez,PATIENT,negation cue,physician,Yes,No,High,physician,Yes,No,High,nursing student,Yes,No,Moderate,nursing student,Yes,No,High,nursing student,Yes,Partially,High,Yes,No,No
+panel_180,E0037,Fareez,PATIENT,negation cue,physician,Yes,Yes,Moderate,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0038,Fareez,PATIENT,negation cue,physician,Yes,No,High,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,Moderate,Yes,No,No
+panel_180,E0039,Fareez,PATIENT,negation cue,physician,Yes,Yes,Moderate,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0040,Fareez,PATIENT,negation cue,physician,Yes,No,High,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,Yes,No,No
+panel_180,E0041,Fareez,DOCTOR,negation cue,physician,Yes,No,Moderate,physician,Yes,No,High,nursing student,Yes,No,Moderate,nursing student,Yes,No,High,nursing student,Yes,Yes,Moderate,Yes,No,No
+panel_180,E0042,Fareez,PATIENT,negation cue,physician,Yes,Yes,Moderate,physician,Yes,Partially,Moderate,nursing student,Yes,Partially,Moderate,nursing student,Yes,Partially,High,nursing student,Yes,Yes,High,Yes,Partially,Discordant
+panel_180,E0043,Fareez,PATIENT,negation cue,physician,Yes,No,High,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,Yes,No,No
+panel_180,E0044,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0045,Fareez,PATIENT,negation cue,physician,Yes,Yes,Moderate,physician,Yes,Yes,High,nursing student,Yes,Partially,Moderate,nursing student,Yes,Yes,High,nursing student,Yes,Yes,Moderate,Yes,Yes,Yes
+panel_180,E0046,Fareez,PATIENT,negation cue,physician,Yes,No,High,physician,No,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,Yes,No,No
+panel_180,E0047,Fareez,PATIENT,negation cue,physician,Yes,Yes,Moderate,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0048,Fareez,PATIENT,negation cue,physician,Yes,No,High,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,Yes,No,No
+panel_180,E0049,Fareez,PATIENT,negation cue,physician,Yes,No,Moderate,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,Partially,Moderate,Yes,No,No
+panel_180,E0050,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0051,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0052,Fareez,PATIENT,negation cue,physician,Yes,No,High,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,Yes,No,No
+panel_180,E0053,Fareez,PATIENT,medication term,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Partially,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0054,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0055,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0056,Fareez,PATIENT,negation cue,physician,Yes,No,Moderate,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,Moderate,Yes,No,No
+panel_180,E0057,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0058,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0059,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0060,Fareez,DOCTOR,negation cue,physician,Yes,No,High,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,Moderate,Yes,No,No
+panel_180,E0061,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0062,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0063,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0064,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0065,Fareez,DOCTOR,negation cue,physician,Yes,No,Moderate,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,Moderate,Yes,No,No
+panel_180,E0066,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0067,Fareez,DOCTOR,negation cue,physician,Yes,No,High,physician,Yes,No,High,nursing student,Yes,Yes,High,nursing student,Yes,No,High,nursing student,Yes,Partially,Moderate,Yes,No,No
+panel_180,E0068,Fareez,PATIENT,negation cue,physician,Yes,No,High,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,Moderate,Yes,No,No
+panel_180,E0069,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0070,Fareez,PATIENT,negation cue,physician,Yes,No,High,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,Yes,No,No
+panel_180,E0071,Fareez,PATIENT,negation cue,physician,Yes,No,High,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,Yes,No,No
+panel_180,E0072,Fareez,PATIENT,medication term,physician,Yes,Partially,Moderate,physician,Yes,Partially,Moderate,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Partially
+panel_180,E0073,Fareez,PATIENT,negation cue,physician,Yes,No,Moderate,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,Moderate,Yes,No,No
+panel_180,E0074,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0075,Fareez,PATIENT,medication term,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0076,Fareez,DOCTOR,negation cue,physician,Yes,No,Moderate,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,Yes,No,No
+panel_180,E0077,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0078,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0079,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0080,Fareez,DOCTOR,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,Moderate,Yes,No,Yes
+panel_180,E0081,Fareez,PATIENT,negation cue,physician,Yes,No,High,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,Yes,High,Yes,No,No
+panel_180,E0082,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0083,Fareez,DOCTOR,medication term,physician,Yes,No,Moderate,physician,Yes,No,High,nursing student,Yes,Partially,Moderate,nursing student,Yes,No,High,nursing student,Yes,No,Moderate,Yes,No,No
+panel_180,E0084,Fareez,PATIENT,negation cue,physician,Yes,No,High,physician,Yes,No,High,nursing student,Yes,No,Moderate,nursing student,Yes,No,High,nursing student,Yes,No,Moderate,Yes,No,No
+panel_180,E0085,Fareez,PATIENT,negation cue,physician,No,No,High,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,Yes,No,No
+panel_180,E0086,Fareez,PATIENT,negation cue,physician,Yes,No,High,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,Yes,High,Yes,No,No
+panel_180,E0087,Fareez,PATIENT,negation cue,physician,Yes,No,High,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,Yes,No,No
+panel_180,E0088,Fareez,PATIENT,negation cue,physician,Yes,No,High,physician,Yes,No,High,nursing student,Yes,Partially,High,nursing student,Yes,No,High,nursing student,Yes,Yes,High,Yes,No,No
+panel_180,E0089,Fareez,DOCTOR,negation cue,physician,Yes,No,High,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,Yes,No,No
+panel_180,E0090,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0091,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0092,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0093,Fareez,PATIENT,negation cue,physician,Yes,No,High,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,Yes,No,No
+panel_180,E0094,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0095,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0096,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0097,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,Moderate,Yes,No,Yes
+panel_180,E0098,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0099,Fareez,DOCTOR,negation cue,physician,Yes,No,High,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,Moderate,Yes,No,No
+panel_180,E0100,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0101,Fareez,PATIENT,negation cue,physician,Yes,No,High,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,Partially,Moderate,Yes,No,No
+panel_180,E0102,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0103,Fareez,PATIENT,negation cue,physician,Yes,No,High,physician,Yes,No,High,nursing student,Yes,Yes,High,nursing student,Yes,No,High,nursing student,Yes,Partially,Moderate,Yes,No,No
+panel_180,E0104,Fareez,PATIENT,negation cue,physician,Yes,No,High,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,Partially,Moderate,Yes,No,No
+panel_180,E0105,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0106,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0107,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0108,Fareez,PATIENT,negation cue,physician,Yes,Yes,Moderate,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0109,Fareez,PATIENT,negation cue,physician,Yes,No,Moderate,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,,Yes,No,No
+panel_180,E0110,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0111,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0112,Fareez,PATIENT,negation cue,physician,Yes,No,Moderate,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,Yes,No,No
+panel_180,E0113,Fareez,PATIENT,negation cue,physician,Yes,No,Moderate,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,Moderate,Yes,No,No
+panel_180,E0114,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0115,Fareez,PATIENT,negation cue,physician,Yes,No,High,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,Partially,Moderate,Yes,No,No
+panel_180,E0116,Fareez,PATIENT,negation cue,physician,Yes,Yes,Moderate,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0117,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0118,Fareez,PATIENT,negation cue,physician,Yes,Yes,Moderate,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0119,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0120,Fareez,PATIENT,negation cue,physician,Yes,No,High,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,Yes,High,nursing student,Yes,No,Moderate,Yes,No,No
+panel_180,E0121,Fareez,PATIENT,medication term,physician,Yes,Partially,High,physician,Yes,Partially,Moderate,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,No,Moderate,Yes,Tie,Partially
+panel_180,E0122,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0123,Fareez,PATIENT,medication term,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0124,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0125,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0126,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0127,Fareez,PATIENT,negation cue,physician,Yes,No,High,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,Yes,No,No
+panel_180,E0128,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0129,Fareez,DOCTOR,negation cue,physician,Yes,No,High,physician,Yes,No,High,nursing student,Yes,Partially,High,nursing student,Yes,No,High,nursing student,Yes,Partially,Moderate,Yes,No,No
+panel_180,E0130,Fareez,PATIENT,medication term,physician,Yes,Yes,Moderate,physician,Yes,Partially,Moderate,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,No,Moderate,Yes,Yes,Discordant
+panel_180,E0131,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0132,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0133,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0134,Fareez,PATIENT,negation cue,physician,Yes,No,High,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,Yes,No,No
+panel_180,E0135,Fareez,PATIENT,negation cue,physician,Yes,No,High,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,Yes,No,No
+panel_180,E0136,Fareez,PATIENT,negation cue,physician,Yes,No,High,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,Yes,No,No
+panel_180,E0137,Fareez,PATIENT,medication term,physician,Yes,Partially,High,physician,Yes,Partially,Moderate,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Partially
+panel_180,E0138,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0139,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0140,Fareez,PATIENT,negation cue,physician,Yes,No,High,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,Yes,No,No
+panel_180,E0141,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0142,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0143,Fareez,PATIENT,negation cue,physician,Yes,No,High,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,Partially,Moderate,Yes,No,No
+panel_180,E0144,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Partially,Moderate,nursing student,Yes,Yes,High,nursing student,Yes,Yes,Moderate,Yes,Yes,Yes
+panel_180,E0145,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0146,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0147,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0148,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0149,Fareez,DOCTOR,negation cue,physician,Yes,No,High,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,Moderate,Yes,No,No
+panel_180,E0150,Fareez,PATIENT,negation cue,physician,Yes,No,High,physician,Yes,No,High,nursing student,Yes,Yes,High,nursing student,Yes,No,High,nursing student,Yes,No,Moderate,Yes,No,No
+panel_180,E0151,Fareez,PATIENT,negation cue,physician,Yes,No,High,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,Moderate,Yes,No,No
+panel_180,E0152,Fareez,PATIENT,negation cue,physician,Yes,No,High,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,Moderate,Yes,No,No
+panel_180,E0153,Fareez,PATIENT,negation cue,physician,Yes,No,High,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,Moderate,Yes,No,No
+panel_180,E0154,Fareez,DOCTOR,negation cue,physician,Yes,No,High,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,Moderate,Yes,No,No
+panel_180,E0155,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0156,Fareez,PATIENT,negation cue,physician,Yes,No,High,physician,Yes,No,High,nursing student,Yes,Partially,Moderate,nursing student,Yes,No,High,nursing student,Yes,No,Moderate,Yes,No,No
+panel_180,E0157,Fareez,DOCTOR,negation cue,physician,Yes,No,Moderate,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,Moderate,Yes,No,No
+panel_180,E0158,Fareez,PATIENT,negation cue,physician,Yes,No,High,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,Moderate,Yes,No,No
+panel_180,E0159,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0160,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0161,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0162,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0163,Fareez,PATIENT,medication term,physician,Yes,Partially,Moderate,physician,Yes,Partially,Moderate,nursing student,Yes,Yes,High,nursing student,Yes,Partially,High,nursing student,Yes,Yes,High,Yes,Partially,Partially
+panel_180,E0164,Fareez,PATIENT,negation cue,physician,Yes,No,High,physician,Yes,No,High,nursing student,Yes,Partially,Moderate,nursing student,Yes,No,High,nursing student,Yes,Partially,Moderate,Yes,No,No
+panel_180,E0165,Fareez,PATIENT,negation cue,physician,Yes,Yes,Moderate,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0166,Fareez,PATIENT,negation cue,physician,Yes,Yes,Moderate,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0167,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0168,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0169,Fareez,PATIENT,negation cue,physician,Yes,No,High,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,Yes,No,No
+panel_180,E0170,Fareez,PATIENT,negation cue,physician,Yes,Yes,Moderate,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0171,Fareez,PATIENT,negation cue,physician,Yes,No,Moderate,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,Yes,No,No
+panel_180,E0172,Fareez,PATIENT,negation cue,physician,No,No,Low,physician,No,No,High,nursing student,Partially,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,Tie,No,No
+panel_180,E0173,Fareez,PATIENT,negation cue,physician,Yes,Yes,Moderate,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0174,Fareez,PATIENT,negation cue,physician,Yes,Yes,Moderate,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0175,Fareez,DOCTOR,negation cue,physician,Yes,No,High,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,Moderate,Yes,No,No
+panel_180,E0176,Fareez,PATIENT,negation cue,physician,Yes,No,High,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,Moderate,Yes,No,No
+panel_180,E0177,Fareez,PATIENT,negation cue,physician,Yes,Yes,High,physician,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,nursing student,Yes,Yes,High,Yes,Yes,Yes
+panel_180,E0178,Fareez,DOCTOR,negation cue,physician,Yes,No,Moderate,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,Moderate,Yes,No,No
+panel_180,E0179,Fareez,PATIENT,negation cue,physician,Yes,Yes,Moderate,physician,Yes,Partially,Moderate,nursing student,Yes,Yes,High,nursing student,Yes,Partially,High,nursing student,Yes,Yes,Moderate,Yes,Yes,Discordant
+panel_180,E0180,Fareez,PATIENT,negation cue,physician,Yes,No,High,physician,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,High,nursing student,Yes,No,Moderate,Yes,No,No

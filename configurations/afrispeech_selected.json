@@ -1,0 +1,55 @@
+{
+ "study": "afrispeech_local20_large_v3",
+ "trial": 15,
+ "dev_value": 0.0950180867447441,
+ "basis": "lowest pooled development WER on the 20-recording local search set",
+ "params": {
+  "beam_size": 8,
+  "patience": 1.225849157589461,
+  "length_penalty": 0.959997022270265,
+  "repetition_penalty": 1.0309169291240083,
+  "no_repeat_ngram_size": 5,
+  "temperature_fallback": "short",
+  "best_of": 1,
+  "compression_ratio_threshold": 2.5607991445212877,
+  "log_prob_threshold": -0.7063481920028591,
+  "no_speech_threshold": 0.5126593084312381,
+  "condition_on_previous_text": false,
+  "initial_prompt": "none",
+  "hallucination_silence": "on",
+  "hallucination_silence_threshold": 0.6697104597236951,
+  "vad_threshold": 0.30299156719761106,
+  "vad_min_speech_ms": 196,
+  "vad_min_silence_ms": 197,
+  "vad_speech_pad_ms": 97
+ },
+ "transcribe_kwargs": {
+  "vad_filter": true,
+  "beam_size": 8,
+  "patience": 1.225849157589461,
+  "length_penalty": 0.959997022270265,
+  "repetition_penalty": 1.0309169291240083,
+  "no_repeat_ngram_size": 5,
+  "temperature": [
+   0.0,
+   0.2,
+   0.4
+  ],
+  "best_of": 1,
+  "compression_ratio_threshold": 2.5607991445212877,
+  "log_prob_threshold": -0.7063481920028591,
+  "no_speech_threshold": 0.5126593084312381,
+  "condition_on_previous_text": false,
+  "initial_prompt": null,
+  "hallucination_silence_threshold": 0.6697104597236951,
+  "vad_parameters": {
+   "threshold": 0.30299156719761106,
+   "min_speech_duration_ms": 196,
+   "min_silence_duration_ms": 197,
+   "speech_pad_ms": 97
+  }
+ },
+ "complete_trials": null,
+ "n_complete": 14,
+ "n_trials": 16
+}
